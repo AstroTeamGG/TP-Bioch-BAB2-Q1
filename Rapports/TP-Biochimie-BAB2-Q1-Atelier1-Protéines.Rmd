@@ -59,7 +59,7 @@ Toutes ses structures sont stabilisées par des liasons de forte et de faible é
 Comme établi précédemment, la liaison peptidique confère des propriétés fascinantes aux protéines. L'une d'entre est l'absorption importante aux longueurs d'onde < 230 nm (UVc). Certaines protéines possèdent néanmoins aune absorption dans une gamme plus élevée (250-300 nm, UVb et c), que ce soit à cause de leur radical phényle/ol (Phénylalanine et Tyrosine) ou du noyau indole (Tryptophane).
 
 Cette absorption est d'ailleur intimement liée aux procédés de spectrophotométrie, ainsi qu'à la loi de Beer Lambert.
-![*Source: dia 13 Travaux pratiques de biochimie 2020-2021 par L. Colignon*](../Images/Beer-Lambert.png)
+![Figure 1: Loi de Beer Lambert. *Source: dia 13 Travaux pratiques de biochimie 2020-2021 par L. Colignon*](../Images/Beer-Lambert.png)
 
   
 ### But de la manipulation
@@ -80,15 +80,12 @@ cette partie se base dans un premier temps sur l'absorption du rayonnement UV pa
 * Verres à pied et béchers.
 * Colonne de chromatographie (2), ouate, bouchon, tuyau, pipette pasteur.
   
-#### Séparation de protéines par colonne de chromatographie
+#### Séparation de protéines par spectrophotométrie
 * BSA 1g/l
 * Blanc d’œufs (différentes dilutions : 10X, 100X, 500X, 1000X)
 * NaCl 0,9%
-* Spectrophotomètre + cuvettes
-* Solution de Bradford (Biorad Protein Assay : frigo)
-* Si la solution est à préparer :
-  + Bleu de Coomassir G250 100mg o Ethanol 95% 50 ml
-  + Acide phosphorique H3PO4 (85%) 100 ml o H2Od 1L
+* Spectrophotomètre + cuvettes en plastique et en quartz.
+* Solution de Bradford
   
 ### Méthode 
 #### Séparation de protéines par colonne de chromatographie
@@ -112,39 +109,55 @@ Cette étape achevées, une courbe étalon fut élaborée sur excel à partir de
 #### Séparation de protéines par spectrophotométrie
 Cette partie commença par le préparation des solutions suivantes:
   
-* [1] Une solution de BSA (albumine bovine) 0.1%.
-* [2] Une solution de NaCl 0.9%.
+* [1] Une solution de BSA (albumine bovine) 0.1%. Nous avons décidé de préparer 3 ml de solution avec 3 mg de BSA pour éviter toute erreur trop importante lors de la pesée. La concentration de 1 mg/ml fut plus tard vérifiée par spectrophotométrie (1,02 mg/L **-insérer calcul-**)
+* [2] Une solution de NaCl 0.9% (9g de Nacl dan 1L d'eau).
 * [3] Quelques solutions de blanc d’œuf dilué au NaCl 0.9% (10x, 100x, 500x et 1000x).
-* [4] Une solution de Bradford (20ml de Biorad Protein Assay + 80ml d’eau distillée).
+**insérer calculs**
+* [4] Une solution de Bradford. La préparation fut préparée à partir d'1,5 mL d'éthanol 96%, de 3 mg de bleu de Coomassir et de 3 mL d'acide phosphorique 85%, mis au trait à 30 mL dans un verre à pied. La solution fut ensuite diluée 5 fois (1:4) pour aboutir à un volume total de 150mL. Cette dernière étape était néanmoins eronnée à cause d'une mauvaise compréhension des consignes, et elle aboutit à l'échec des deux manipulation de bradford. Les données du groupe **insérer groupe** furent utilisées pour pallier à cette regrettable erreur.
   
 **2 méthodes seront utilisées:** La méthode par *absorption UV* et la méthode de *Bradford*.
 
 ##### Par l'absorption des UV
-La mesure de l'absorbance de BSA [1] se fît à 280nm à l'aide de cuvettes en quartz (le plastique est peu adéquat car il absorbe dans l'UV). Une rapide recherche dans les tables nous confirma que la valeur du coefficient d'absorption molaire du BSA à 280 nm est de 0.66 L/mol.cm.
+La mesure de l'absorbance de BSA [1] se fît à 280nm à l'aide de cuvettes en quartz (le plastique est peu adéquat car il absorbe dans l'UV). 
+* **Mesure du BSA et vérification de la concentration (1mg/ml):**
+
+Une rapide recherche dans les tables nous confirma que la valeur du coefficient d'absorption molaire du BSA à 280 nm était bien de 0.66 L/mol.cm.
   
-L'analyse se poursuivit par l'établissement d'un spectre d'absorption d'une des solution de blanc d'oeuf préparée préalablement [3]. La valeur initiale d'absorption était de ... (0.2-0.5) à 250 nm. Un test blanc a été effectué entre chaque changement de longueur d'onde.
+L'analyse se poursuivit par l'établissement d'un spectre d'absorption des solution de blanc d'oeuf préparée préalablement [3]. La valeur initiale d'absorption était de ... (0.2-0.5) à 250 nm. Un test blanc a été effectué entre chaque changement de longueur d'onde.
+
+```{r}
+#Insérer excel UV1
+#graphique d'étalonnage
+```
+
+
   
 ##### Par la méthode de Bradford
 Les solutions [1], [2], [3] et [4] furent utilisées dans cette partie.
 
-<!--- Pour la manipulation, nous avons d’abord réalisé une courbe d’étalonnage qui donne
-l’absorbance du réactif colorant ( solution de Bradford ) par rapport à la concentration en
-protéines standards, ici cette protéine est l’albumine bovine ( BSA ).
-Nous avons pour cela pris 19 petits tubes à essais, numérotés en trois séries de 6, et le blanc.
-Nous avons pipeté les concentrations en albumine du tableau suivant. Nous avons amené le
-volume de chaque tube à 100µl. Nous avons ajouté 4ml de colorant dans chaque tube, qui
-sont ensuite passés au vortex pour bien homogénéiser. Entre 5 minutes et 1heure après
-cela, nous avons mesuré l’absorbance à 595nm ( dans des tubes en plastique cette fois ci car
-ce n’est plus dans les ultra-violets ) de chaque tube par rapport à de l’eau distillée. Nous
-avons enfin tracé la courbe d’étalonnage qui est l’absorption en fonction de la quantité en
-albumine (en µg ). Cette concentration en albumine peut-être calculée en appliquant la loi
-de Beer-Lambert.
---->
+![Figure 2: De gauche à droite: solution de Bradford (30 mL), échantillons d'étalonnage (18) et BSA 1g/L (3ml)](../Images/Bradford-echantillons)
+
+![Figure 3: De gauche à droite: solution de NaCL (30 mL), échantillons de blanc d'oeufs dilués (4)](../Images/Solutions-blancs)
+
+Pour cette partie, nous commençâmes par la réalisation de la droite d'étalonnage avec en ordonées l'absorbance de la solution de Bradford et en abscisse la concentration en BSA (calculée par la loi de Beer Lambert). Pour cela, nous avons disposé 18 tubes à essai dans une boîte en polystyrène (3 essais par échantillon - voir figure 2).
+
+Nous avons pour cela pris 18 petits tubes à essais, numérotés en trois séries de 6, et le blanc.
+Nous avons pipeté les concentrations en albumine du tableau suivant. 
+
+```{r}
+#Afficher brad1
+```
+
+Nous avons amené le volume de chaque cuvette à 100µl avec de l'eau distilée, pour ensuite finir par ajouter 4mL de solution de Bradford (2,5 mL dans notre échec, les solutions avaient été directement préparées dans les cuvettes). 
+
+Après avoir attendu une dizaine de minutes, nous avons mesuré l’absorbance des échantillons à 595nm (cuvettes plastique) de chaque tube par rapport à un blanc (100 µL d'eau distilée et 4mL de colorant). 
   
 ```{r}
 #graph brad1 -> faire excel d'abord
 ```
   
+
+
 <!---
 Ensuite, nous avons réalisé le même test mais avec le blanc d’œuf pour pouvoir déterminer
 la concentration en protéines qu’ils ont.
