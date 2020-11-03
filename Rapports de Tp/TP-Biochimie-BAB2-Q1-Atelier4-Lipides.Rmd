@@ -1,0 +1,40 @@
+---
+title: "TP Biochimie BAB2 Q1"
+author: 
+  - name: "Guillaume Gégo"
+  - name: "Raphaël Deroux"
+  - name: "Emeline Derycke"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## **Atelier 4:** Les Lipides
+
+### Introduction
+
+  
+### But
+
+  
+### Matériel
+
+  
+### Méthodes
+
+  
+### Résultats
+
+  
+### Discussion
+
+  
+### Conclusion
+
+
+### Bibliographie
+
+
