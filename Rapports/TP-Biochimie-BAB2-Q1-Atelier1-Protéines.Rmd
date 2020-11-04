@@ -113,7 +113,7 @@ Cette partie commença par le préparation des solutions suivantes:
 * [2] Une solution de NaCl 0.9% (9g de Nacl dan 1L d'eau).
 * [3] Quelques solutions de blanc d’œuf dilué au NaCl 0.9% (10x, 100x, 500x et 1000x).
 **insérer calculs**
-* [4] Une solution de Bradford. La préparation fut préparée à partir d'1,5 mL d'éthanol 96%, de 3 mg de bleu de Coomassir et de 3 mL d'acide phosphorique 85%, mis au trait à 30 mL dans un verre à pied. La solution fut ensuite diluée 5 fois (1:4) pour aboutir à un volume total de 150mL. Cette dernière étape était néanmoins eronnée à cause d'une mauvaise compréhension des consignes, et elle aboutit à l'échec des deux manipulation de bradford. Les données du groupe **insérer groupe** furent utilisées pour pallier à cette regrettable erreur.
+* [4] Une solution de Bradford. La préparation fut préparée à partir d'1,5 mL d'éthanol 96%, de 3 mg de bleu de Coomassie et de 3 mL d'acide phosphorique 85%, mis au trait à 30 mL dans un verre à pied. La solution fut ensuite diluée 5 fois (1:4) pour aboutir à un volume total de 150mL. Néanmoins, le bleu de Coomassie étant périmé, les deux manipulations utilisant la solution de Bradford furent soldées par un échec. Les données du groupe **insérer groupe** furent utilisées pour pallier à cette regrettable erreur.
   
 **2 méthodes seront utilisées:** La méthode par *absorption UV* et la méthode de *Bradford*.
 
