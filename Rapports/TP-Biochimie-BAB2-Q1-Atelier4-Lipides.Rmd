@@ -15,16 +15,64 @@ knitr::opts_chunk$set(echo = TRUE)
 ## **Atelier 4:** Les Lipides
 
 ### Introduction
+#### Qu’est-ce qu’un lipide?
+Les lipides sont des molécules amphiphiles à caractère hydrophobe prononcé. A température ambiante, les lipides peuvent être à l'état solide(cires) ou liquide (huiles). Les stéroïdes et le phosphatidylinositol (glycérophospholipides) sont les seuls lipides à porter un rôle informationnel.
 
+D’un point de vue biologique :
+* 20% du poids corporel.
+* Réserve énergétique.
+* Rôles de précurseurs (Vitamines, stéroïdes,…).
+* Composante de la bicouche lipidique des cellules.
+* Constituants alimentaires (Beurre, fromage,…).
   
 ### But
-
+Préparer des solutions qui nous permettront de séparer les trois principales classes de lipides : les triacylglycérols, les phospholipides et le cholestérol, à partir de cervelle et de lard (mammifères) sur base de leur affinité en fonctions des solvants utilisés.
   
 ### Matériel
-
   
 ### Méthodes
+  
+#### Séparation des lipides
+Cela s’est déroulé en deux étapes. Tout d’abord, il a fallu extraire le lard et la cervelle : 30g de tissus pour 300 ml de solvant. Le tout a été broyé mécaniquement avec un mélange de méthanol/chloroforme (1 pour 2). Les résidus insolubles ont été éliminés par filtration. 
+  
+Ensuite, il a fallu séparer les 3 groupes de lipides, où nous avons pipeté 20 ml dans un bêcher marqué au lard et à la cervelle. Sous hôte, le solvant a été éliminé par évaporation sur une plaque électrique. Nous pouvions donc commencer à séparer les différentes classes…
+  
+##### Précipitation de phospholipides
+Après avoir été refroidi, nous avons dissout les résidus de l’évaporation dans 2 ml d’éther, puis versé dans un tube à centrifuger où nous avons marqué soit le lard, soit la cervelle. Avant la centrifugation, 5 gouttes de solution de chlorure de cadmium et 6 ml d’acétone ont été ajoutés. Les sels de cadmium des phospholipides sont insolubles dans une solution d’acétone et d’éther, nous devrions donc nous attendre à apercevoir un précipité.
+  
+##### Saponification des graisses neutres
+Dans le surnageant, seuls les graisses neutres et le cholestérol sont encore présents. Il a fallu décanter ce surnageant dans un bécher marqué au lard ou à la cervelle. Une solution de KOHalcool a été ajoutée et le tout a été mélangé. 
+  
+Le potassium réagit avec le carboxyle, et le groupement OH va former le glycérol. Sous la hotte, nous l’avons évaporé, ce qui a provoqué la saponification des graisses neutres. Les acides gras ainsi libérés ont été présents sous forme de savons (sels de potassium).
+  
+##### Séparation des savons et du cholestérol
+Nous avons dissout le bêcher contenant de la cervelle à l’aide de 7ml d’alcool à 50%, après avoir refroidi le tout. Ensuite, nous avons transvasé tout cela dans une ampoule à décanter 10ml d’éther de pétrole a été ajouté. 
+  
+Une phase organique avec le cholestérol et une phase aqueuse avec les savons ont été observées. Finalement, nous avons laissé s’écouler la phase aqueuse et l’éther de pétrole est recueilli dans un bêcher sec, jusqu’à son évaporation sous la hotte. Le cholestérol s’est cristallisé en aiguille.
+  
+##### Précipitation des savons calciques
+Nous avons repris le résidu du bêcher contentant le lard à l’aide de 20ml d’eau et l’avons mélangé. Au plus ces résidus sont abondants, au plus la solution doit être visqueuse.
+  
+Ensuite, avec les 20ml, nous les avons mis dans deux tubes, de 10ml chacun. Après cela, nous avons ajouté petit à petit 10 gouttes de CaCl2 2M dans l’un, et 10 gouttes d’acide acétique dans l’autre. Les acides gras se sont précipités.
+  
+Théoriquement, dans le CaCl2 (Ca++, 2 Cl- ), le calcium, de valence 2, va pouvoir accepter 2 têtes hydrophiles des triglycérides, tandis que l’acide acétique (CH3COO- , H+ ) ne va pouvoir se lier qu’à une tête hydrophile. Du coup, nous devrions observer, en quantités égales, deux fois plus de précipités dans la solution de chlorure de calcium.
 
+#### Préparation sur couche mince
+  
+##### Préparation de la plaque de chromatographie. 
+Nous avons dû réaliser la plaque de chromatographie: Cette plaque est composée de silice. « L » et « C » représentent la partie lard et la partie cervelle. Nous avons déposé respectivement 1, 3, et 5 gouttes pour chaque solution au niveau de la ligne tracée horizontalement. Cette ligne doit être tracée au-dessus du solvant dans lequel la plaque sera déposée. Les solutions utilisées ici sont les solutions de départ composées de 30g de tissu pour 300ml de solvant.
+  
+Pour l’application des gouttes, elle s’est faite à l’aide d’une pipette pasteur, en prenant par capillarité de la solution et en déposant la pointe sur la plaque. Nous avons bien laissé sécher la zone où la goutte était déposée avant d’en remettre une.
+  
+##### Réalisation de la chromatographie
+Nous avons trempé la plaque de silice dans une cuve comportant du solvant (65 volumes de chloroforme – 25 volumes de méthanol – 1 volume d’acide acétique – 4 volumes d’eau). Ce solvant (=éluant) permet une migration des lipides neutre et une rétention des lipides polaires et chargés.
+  
+Lorsque la cuve est fermée hermétiquement, le solvant va monter dans le gel de la plaque par capillarité. Un peu avant qu’il atteigne le haut de la plaque, nous retirons cette dernière et la laissons sécher sous la hotte.
+  
+##### Révélations de la chromatographie
+Nous avons appliqué comme révélation la ninhydrine (coloration rose) qui peut révéler certains phospholipides, ceux comportant un groupe amino libre. On devrait observer le fait que certaines protéines migrent vers le haut en fonction de leur affinité avec l’éluant.
+  
+La ninhydrine réagit aussi avec les acides aminés. Si nous posons nos doigts sur la plaque, nous devrions pouvoir observer nos empreintes digitales. Cette technique est d’ailleurs employée par la police scientifique.
   
 ### Résultats
 
