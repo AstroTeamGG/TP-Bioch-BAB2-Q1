@@ -78,10 +78,10 @@ Nous avons ensuite rajouté 13g de NaCl solide dans le bécher. Une agitation co
   
 ![Figure 5: filtrage de thymus avec filet étamine](../Images/Etamine.jpg)
 
-/Pour finir, nous l’avons remis dans une solution de 100ml de tampon glacé fait en début de manipulation, ce qui évite toute modification de sa structure. 
+/Pour finir, nous l’avons remis dans une solution de 100ml de tampon glacé fait en début de manipulation, ce qui évite toute modification de sa structure./
   
 ####  Dénaturation de l’ADN purifié
-/Nous avons chauffé la solution à 80° pour dénaturer l’ADN et que celui-ci se retrouve sous forme de monobrins. Ensuite un filtrage a été réalisé pour enlever les impuretés, et il a été refroidit par la suite pour reformer la double hélice d’ADN. Le filtrat refroidit a été chauffé sur une plaque électrique. Et à chaque augmentation de 5°, une mesure sur la densité optique a été prélevée grâce au spectromètre à UV (cuvettes en quartz). Les appariements C-G possèdent 3 liaisons hydrogènes, tandis que les appariements A-T en possèdent 2, une température de fusion plus importante va être nécessaire pour briser les C-G du à lors stabilité plus importante.
+/Nous avons chauffé la solution à 80° pour dénaturer l’ADN et que celui-ci se retrouve sous forme de monobrins. Ensuite un filtrage a été réalisé pour enlever les impuretés, et il a été refroidit par la suite pour reformer la double hélice d’ADN. Le filtrat refroidit a été chauffé sur une plaque électrique. Et à chaque augmentation de 5°, une mesure sur la densité optique a été prélevée grâce au spectromètre à UV (cuvettes en quartz). Les appariements C-G possèdent 3 liaisons hydrogènes, tandis que les appariements A-T en possèdent 2, une température de fusion plus importante va être nécessaire pour briser les C-G du à lors stabilité plus importante./
   
 ![Figure 6: Station de traitement de données de spectrométrie](../Images/Spectro-A2.jpg)
 
