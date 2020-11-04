@@ -13,12 +13,12 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## **Atelier 2:** L'ADN
-
+  
 ### Introduction
-
+  
 #### Les acides nucléiques
 Les acides nucléiques sont des polynucléotiques. On les retrouve dans toutes les cellules vivantes ainsi que les virus, libres ou associés à des protéines (histones par ex). Ils sont le support de l'information génétique ou les agents permettant l'expression de cette information.
-
+  
 #### Les nucléotides
 Monomères des acides nucléiques, les nucléotides n'ont PAS de rôle génétique. Ils jouent néanmoins un rôle dans le stockage de l'énergie (ATP/ADP et autres) ou en tant que coenzymes (NAD+, FAD, etc).
   
@@ -26,7 +26,7 @@ Un nucléotide peut être hydrolysé en 3 constituants:
 * Une base hétérocyclique azotée (ATCG)
 * Un sucre à 5 carbones (ribose pour ARN/désoxyribose pour ADN)
 * Un acide phosphorique
-
+  
 #### Qu'est-ce que c'est l'ADN?
 Chez les eucaryotes, l’ADN se retrouve dans le noyau cellulaire tandis que chez les procaryotes il est libre dans la cellule. Les quatre bases principales de l’ADN sont l’adénine, la thymine, la cytosine et la guanine. Ces bases s’apparient s’enroulent autour d’histones pour former 2 brins complémentaires qui vont être stabilisés par des liaisons hydrogènes pour donner la double hélice. Les liaisons entre les bases sont spécifiques, l’adénine avec la thymine par l’intermédiaire de 2 ponts d’hydrogènes, et la guanine avec la cytosine par 3 ponts d’hydrogène.
   
@@ -54,29 +54,37 @@ Remarques: Pendant les manipulations d’extraction, il faut faire attention à 
 * **3. Le tampon:** dans un matras de 500ml
   + **Nacl:** 4.5 g de NaCl solide
   + **Citrate de Na:** 1.47 g de Citrate de Na solide
+  
 ![Figure 1: Le tampon](../Images/Tampon.jpg)
 * **2. NaCl 0.09%:** 0.45g dans un matras de 500 mL
+  
 ![Figure 2: NaCl 0.09%](../Images/NaCl-0.09%-glace.jpg)
 * **3. SDS 5% - Ethanol 45%:** dans un matras de 50 mL
   + **SDS:** 2,5 g de SDS solide
-  + **Ethanol** 22,5 ml de Ethanol à 100% ![Figure 3: Solution SDS 5% - Ethanol 45%:](../Images/SDS.jpg)
+  + **Ethanol** 22,5 ml de Ethanol à 100%
   
+![Figure 3: Solution SDS 5% - Ethanol 45%:](../Images/SDS.jpg)
   
 #### Extraction et précipitation
-La première étape de cette expérience était de prélever 10g de thymus de veau (figure 3) pour mixer avec un tampon glacé, préparé préalablement à partir de (NaCl 0.9% et citrate de sodium 0.1M). 
+La première étape de cette expérience était de prélever 10g de thymus de veau (figure 3) pour mixer avec un tampon glacé, préparé préalablement à partir de (NaCl 0.9% et citrate de sodium 0.1M).
+  
 ![Figure 3: 10 g de thymys de veau](../Images/Thymus.jpg)
 
-S'ensuit une centrifugation à froid à 5000t/ durant 10 minutes. Après ce délai, le culot fut récupéré pour y incorporer 40 mL de tampon glacé, processus qui sera réitéré à deux reprises. Ces étapes intermédiaires permettent une séparation efficace des cellules incluses au sein des tissus du thymus. Le culot final fut incorporé dans un erlenmeyer de 200 mL de NaCl 0.09% glacé, ce qui permit de récupérer les protéines présentes dans les cellules. La préparation fut ensuite transvasée dans un bécher, et après y avoir ajouté 18 mL de SDS+éthanol, ce bécher fut déposé sur l'agitateur magnétique pendant 1h afin de détruire les membranes biologiques (cellulaires et nucléaires). 
+S'ensuit une centrifugation à froid à 5000t/ durant 10 minutes. Après ce délai, le culot fut récupéré pour y incorporer 40 mL de tampon glacé, processus qui sera réitéré à deux reprises. Ces étapes intermédiaires permettent une séparation efficace des cellules incluses au sein des tissus du thymus. Le culot final fut incorporé dans un erlenmeyer de 200 mL de NaCl 0.09% glacé, ce qui permit de récupérer les protéines présentes dans les cellules. La préparation fut ensuite transvasée dans un bécher, et après y avoir ajouté 18 mL de SDS+éthanol, ce bécher fut déposé sur l'agitateur magnétique pendant 1h afin de détruire les membranes biologiques (cellulaires et nucléaires).
+  
 ![Firgue 4: agitateur magnétique](../Images/Agitateur.jpg)
   
 Nous avons ensuite rajouté 13g de NaCl solide dans le bécher. Une agitation constante de la mixture pendant 10 min permit de séparer les histones des bases nucléiques, précipité qui fut prélevé grâce à un filtrage sur étamine(figure 5). Par la suite, 200 ml d’alcool dénaturé (éthanol 100%) furent ajoutés et mélangés pour précipiter l’ADN. 
+  
 ![Figure 5: filtrage de thymus avec filet étamine](../Images/Etamine.jpg)
 
-
-Pour finir, nous l’avons remis dans une solution de 100ml de tampon glacé fait en début de manipulation, ce qui évite toute modification de sa structure. 
-
+/Pour finir, nous l’avons remis dans une solution de 100ml de tampon glacé fait en début de manipulation, ce qui évite toute modification de sa structure. 
+  
 ####  Dénaturation de l’ADN purifié
-Nous avons chauffé la solution à 80° pour dénaturer l’ADN et que celui-ci se retrouve sous forme de monobrins. Ensuite un filtrage a été réalisé pour enlever les impuretés, et il a été refroidit par la suite pour reformer la double hélice d’ADN. Le filtrat refroidit a été chauffé sur une plaque électrique. Et à chaque augmentation de 5°, une mesure sur la densité optique a été prélevée grâce au spectromètre à UV (cuvettes en quartz). Les appariements C-G possèdent 3 liaisons hydrogènes, tandis que les appariements A-T en possèdent 2, une température de fusion plus importante va être nécessaire pour briser les C-G du à lors stabilité plus importante.
+/Nous avons chauffé la solution à 80° pour dénaturer l’ADN et que celui-ci se retrouve sous forme de monobrins. Ensuite un filtrage a été réalisé pour enlever les impuretés, et il a été refroidit par la suite pour reformer la double hélice d’ADN. Le filtrat refroidit a été chauffé sur une plaque électrique. Et à chaque augmentation de 5°, une mesure sur la densité optique a été prélevée grâce au spectromètre à UV (cuvettes en quartz). Les appariements C-G possèdent 3 liaisons hydrogènes, tandis que les appariements A-T en possèdent 2, une température de fusion plus importante va être nécessaire pour briser les C-G du à lors stabilité plus importante.
+  
+![Figure 6: Station de traitement de données de spectrométrie](../Images/Spectro-A2.jpg)
+
   
 ### Résultats
 ```{r}
