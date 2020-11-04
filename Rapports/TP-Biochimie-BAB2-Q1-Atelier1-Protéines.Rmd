@@ -135,9 +135,9 @@ L'analyse se poursuivit par l'établissement d'un spectre d'absorption des solut
 ##### Par la méthode de Bradford
 Les solutions [1], [2], [3] et [4] furent utilisées dans cette partie.
 
-![Figure 2: De gauche à droite: solution de Bradford (30 mL), échantillons d'étalonnage (18) et BSA 1g/L (3ml)](../Images/Bradford-echantillons)
+![Figure 2: De gauche à droite: solution de Bradford (30 mL), échantillons d'étalonnage (18) et BSA 1g/L (3ml)](../Images/Bradford-echantillons.jpg)
 
-![Figure 3: De gauche à droite: solution de NaCL (30 mL), échantillons de blanc d'oeufs dilués (4)](../Images/Solutions-blancs)
+![Figure 3: De gauche à droite: solution de NaCL (30 mL), échantillons de blanc d'oeufs dilués (4)](../Images/Solutions-blancs.jpg)
 
 Pour cette partie, nous commençâmes par la réalisation de la droite d'étalonnage avec en ordonées l'absorbance de la solution de Bradford et en abscisse la concentration en BSA (calculée par la loi de Beer Lambert). Pour cela, nous avons disposé 18 tubes à essai dans une boîte en polystyrène (3 essais par échantillon - voir figure 2).
 
