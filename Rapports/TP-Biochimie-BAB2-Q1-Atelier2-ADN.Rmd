@@ -63,12 +63,14 @@ Remarques: Pendant les manipulations d’extraction, il faut faire attention à 
   
   
 #### Extraction et précipitation
-La première étape de cette expérience éait de prélever 10g de thymus de veau (figure 1) pour mixer avec un tampon glacé, préparé préalablement à partir de (NaCl 0.9% et citrate de sodium 0.1M). 
+La première étape de cette expérience était de prélever 10g de thymus de veau (figure 3) pour mixer avec un tampon glacé, préparé préalablement à partir de (NaCl 0.9% et citrate de sodium 0.1M). 
+![Figure 3: 10 g de thymys de veau](../Images/Thymus.jpg)
 
-S'ensuit une centrifugation à froid à 5000t/ durant 10 minutes. Après ce délai, le culot fut récupéré pour y incorporer 40 mL de tampon glacé, processus qui sera réitéré à deux reprises. Ces étapes intermédiaires permettent une séparation efficace des cellules incluses au sein des tissus du thymus. Le culot final fut incorporé dans un erlenmeyer de 200 mL de NaCl 0.9% glacé, ce qui eu pour but de pour récupérer les protéines présentes dans les cellules. La préparation fut ensuite transvasée dans un bécher, et après y avoir ajouté 18 mL de SDS+éthanol, ce bécher fut déposé sur l'agitateur magnétique pendant 1h afin de détruire les membranes biologiques (cellulaires et nucléaires). 
+S'ensuit une centrifugation à froid à 5000t/ durant 10 minutes. Après ce délai, le culot fut récupéré pour y incorporer 40 mL de tampon glacé, processus qui sera réitéré à deux reprises. Ces étapes intermédiaires permettent une séparation efficace des cellules incluses au sein des tissus du thymus. Le culot final fut incorporé dans un erlenmeyer de 200 mL de NaCl 0.09% glacé, ce qui permit de récupérer les protéines présentes dans les cellules. La préparation fut ensuite transvasée dans un bécher, et après y avoir ajouté 18 mL de SDS+éthanol, ce bécher fut déposé sur l'agitateur magnétique pendant 1h afin de détruire les membranes biologiques (cellulaires et nucléaires). 
+![Firgue 4: agitateur magnétique](../Images/Agitateur.jpg)
   
-Nous avons ensuite rajouté 13g de NaCl solide dans le bécher. Une agitation constante de la mixture pendant 10 min permit de séparer les histones des bases nucléiques, précipité qui fut prélevé grâce à un filtrage sur étamine. Par la suite, 200 ml d’alcool dénaturé (éthanol 100%) furent ajoutés et mélangés pour précipiter l’ADN. 
-
+Nous avons ensuite rajouté 13g de NaCl solide dans le bécher. Une agitation constante de la mixture pendant 10 min permit de séparer les histones des bases nucléiques, précipité qui fut prélevé grâce à un filtrage sur étamine(figure 5). Par la suite, 200 ml d’alcool dénaturé (éthanol 100%) furent ajoutés et mélangés pour précipiter l’ADN. 
+![Figure 5: filtrage de thymus avec filet étamine](../Images/Etamine.jpg)
 
 
 Pour finir, nous l’avons remis dans une solution de 100ml de tampon glacé fait en début de manipulation, ce qui évite toute modification de sa structure. 
