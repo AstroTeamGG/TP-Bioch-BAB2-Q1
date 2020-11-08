@@ -4,7 +4,7 @@ author:
   - name: "Guillaume Gégo"
   - name: "Raphaël Deroux"
   - name: "Emeline Derycke"
-date: "`r Sys.Date()`"
+date: "06/11/2020"
 output: html_document
 ---
 
