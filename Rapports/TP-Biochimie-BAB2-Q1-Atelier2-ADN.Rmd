@@ -10,6 +10,11 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+SciViews::R
+library(dplyr)
+library(ggridges)
+# Excel import packages
+library(readxl)
 ```
 
 ## **Atelier 2:** L'ADN
@@ -87,8 +92,16 @@ Nous avons ensuite rajouté 13g de NaCl solide dans le bécher. Une agitation co
 
   
 ### Résultats
-```{r}
-#Insérer ADN excel
+```{r ADN import}
+# Import dataframe
+ADN <- read_excel("~/shared/projects/TP-Bioch-BAB2-Q1/Excel/ADN.xlsx")
+
+ADN
+```
+```{r ADN graphe}
+# Build graph
+chart(data = ADN, Absorbance ~ Température) +
+  geom_point(na.rm = TRUE)
 ```
 
   
