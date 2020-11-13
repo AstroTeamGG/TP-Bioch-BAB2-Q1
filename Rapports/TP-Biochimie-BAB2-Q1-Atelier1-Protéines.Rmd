@@ -165,7 +165,7 @@ Après cela, nous avons réalisé le même test avec les solutions diluées de b
 Les cuvettes plastiques furent ensuite passées au spectrophotomètre de masse à 595nm **par rapport à de l'eau distillée (?)**
   
 ```{r}
-brad2 <- read_excel("~/shared/projects/TP-Bioch-BAB2-Q1/Excel/brad1.xlsx")
+brad2 <- read_excel("~/shared/projects/TP-Bioch-BAB2-Q1/Excel/brad2.xlsx")
   
 brad2
 ```
@@ -206,6 +206,7 @@ Le volume d'élution est le volume nécessaire pour permettre l'écoulement de t
 * **Ferrycianide de potassium:** Vu que sa masse moléculaire (329 Da) est inférieure à la limite inférieure des domaines de réticulation des deux Sephadex, le volume récupéré dans les verres à pied est donc dans les deux cas le volume d'élution. Ce volume est plus grand car les molécules de Ferrycianide de potassium étant les moins massives, elles sont les dernières à sortir de la colonne de chromatographie.
   
 __En résumé:__
+  
 * **G50:** Volume mort = ±10 mL et Volume d'élusion = ±20.5 mL.
   
 * **G100:** Volume mort = ±8.5 mL et Volume d'élusion = ±15.5 mL.
