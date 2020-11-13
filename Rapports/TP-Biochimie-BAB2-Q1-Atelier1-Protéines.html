@@ -559,31 +559,24 @@ brad1</code></pre>
 <p>Après avoir attendu une dizaine de minutes, nous avons mesuré l’absorbance des échantillons à 595nm (cuvettes plastique) de chaque tube par rapport à un blanc (100 µL d’eau distilée et 4mL de colorant).</p>
 <p>Après cela, nous avons réalisé le même test avec les solutions diluées de blanc d’oeuf afin de pouvoir déterminer leur concentration en protéine respectives. 8 cuvettes furent remplies par 100µL de dilution de blanc d’oeufs et 4 mL de colorant. 2 cuvettes furent utilisées comme blanc (NaCl 0.9% + 4mL de colorant Bradford).</p>
 <p>Les cuvettes plastiques furent ensuite passées au spectrophotomètre de masse à 595nm <strong>par rapport à de l’eau distillée (?)</strong></p>
-<pre class="r"><code>brad2 &lt;- read_excel(&quot;~/shared/projects/TP-Bioch-BAB2-Q1/Excel/brad1.xlsx&quot;)
+<pre class="r"><code>brad2 &lt;- read_excel(&quot;~/shared/projects/TP-Bioch-BAB2-Q1/Excel/brad2.xlsx&quot;)
   
 brad2</code></pre>
-<pre><code>## # A tibble: 18 x 7
-##    `Tube n°` `Albumine à 1 m… `Eau distillée … `Colorant (ml)` `Concentration …
-##    &lt;chr&gt;                &lt;dbl&gt;            &lt;dbl&gt;           &lt;dbl&gt; &lt;lgl&gt;           
-##  1 1 (blanc)                0              100               4 NA              
-##  2 1’ (blan…                0               NA              NA NA              
-##  3 1’’ (bla…                0               NA              NA NA              
-##  4 2                       10               90               4 NA              
-##  5 2’                      10               NA              NA NA              
-##  6 2’’                     10               NA              NA NA              
-##  7 3                       20               80               4 NA              
-##  8 3’                      20               NA              NA NA              
-##  9 3’’                     20               NA              NA NA              
-## 10 4                       50               50               4 NA              
-## 11 4’                      50               NA              NA NA              
-## 12 4’’                     50               NA              NA NA              
-## 13 5                       80               20               4 NA              
-## 14 5’                      80               NA              NA NA              
-## 15 5’’                     80               NA              NA NA              
-## 16 6                      100                0               4 NA              
-## 17 6’                     100               NA              NA NA              
-## 18 6’’                    100               NA              NA NA              
-## # … with 2 more variables: `D.O. à 595 nm` &lt;chr&gt;, `D.O. à 595 nm - blanc` &lt;lgl&gt;</code></pre>
+<pre><code>## # A tibble: 10 x 7
+##    `Tube n°` `Blanc d’œuf di… `NaCl 0,9% (µl)` `Colorant (ml)` `D.O. à 595 nm`
+##    &lt;chr&gt;                &lt;dbl&gt;            &lt;dbl&gt;           &lt;dbl&gt; &lt;lgl&gt;          
+##  1 Blanc                    0              100               4 NA             
+##  2 Blanc’                  NA               NA              NA NA             
+##  3 10X                    100                0               4 NA             
+##  4 10X’                    NA               NA              NA NA             
+##  5 100X                   100                0               4 NA             
+##  6 100X’                   NA               NA              NA NA             
+##  7 500X                   100                0               4 NA             
+##  8 500X’                   NA               NA              NA NA             
+##  9 1000X                  100                0               4 NA             
+## 10 1000X’                  NA               NA              NA NA             
+## # … with 2 more variables: `D.O. à 595 nm - blanc` &lt;lgl&gt;, `Concentration
+## #   protéique (µg)` &lt;lgl&gt;</code></pre>
 <p>La concentration en albumine sera déterminée grâce à la courbe d’étalonnage précédemment établie.</p>
 </div>
 </div>
@@ -612,9 +605,10 @@ brad2</code></pre>
 <li><p><strong>Hémoglobine:</strong> Vu que sa masse moléculaire (65 000 Da) est supérieure à la limite supérieure du domaine de réticulation du Séphadex G50 mais comprise dans le domaine du G100, le volume récupéré dans le verre à pied sous le G50 est donc dans le volume mort (± égal au volume mort du bleu dextran). Celui récupéré dans le G100 est le volume d’élution. Le volume d’élution est toujours supérieur au volume.</p></li>
 <li><p><strong>Ferrycianide de potassium:</strong> Vu que sa masse moléculaire (329 Da) est inférieure à la limite inférieure des domaines de réticulation des deux Sephadex, le volume récupéré dans les verres à pied est donc dans les deux cas le volume d’élution. Ce volume est plus grand car les molécules de Ferrycianide de potassium étant les moins massives, elles sont les dernières à sortir de la colonne de chromatographie.</p></li>
 </ul>
-<p><strong>En résumé:</strong> * <strong>G50:</strong> Volume mort = ±10 mL et Volume d’élusion = ±20.5 mL.</p>
+<p><strong>En résumé:</strong></p>
 <ul>
-<li><strong>G100:</strong> Volume mort = ±8.5 mL et Volume d’élusion = ±15.5 mL.</li>
+<li><p><strong>G50:</strong> Volume mort = ±10 mL et Volume d’élusion = ±20.5 mL.</p></li>
+<li><p><strong>G100:</strong> Volume mort = ±8.5 mL et Volume d’élusion = ±15.5 mL.</p></li>
 </ul>
 <p>Voici les données récupérées par le groupe de Bastien De Tandt, notre chromatographie ayant donné des résultats moins visibles et moins concluants:</p>
 <pre class="r"><code># Import dataframe
