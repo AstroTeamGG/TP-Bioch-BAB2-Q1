@@ -4,7 +4,7 @@ author:
   - name: "Guillaume Gégo"
   - name: "Raphaël Deroux"
   - name: "Emeline Derycke"
-date: "`r Sys.Date()`"
+date: "05/11/2020"
 output: html_document
 ---
 
@@ -15,13 +15,41 @@ knitr::opts_chunk$set(echo = TRUE)
 ## **Atelier 3:** Les sucres
 
 ### Introduction
-
+  
+#### Qu'est-ce qu'un sucre?
+Les glucides (carbohydrates, sucres, -oses, hydrates de carbone), sont une classe de macromolécules dont la formule chimique correspond à ce modèle: Cn(H2O)p. 
+Constituants essentiels à la survie des êtres vivants, ils accomplissent des fonctions allant de la structuration cellulaire à la mise en réserve.
+Ce sont des constituants essentiels des êtres vivants et de leur mode de nutrition. Cependant, ils ne remplissent jamais un rôle informateur. Les monomères constituant l'unité de base des glucides sont les monosaccharides.
+  
+#### Les monosaccharides
+Les sucres sont donc des poly-alcools dont les unités fonctionnelles sont les groupements carbonyles et hydroxyles. Si le carbonyle est terminale, on parlera d'**aldoses**. Si par contre il est intégré à l'intérieur de la chaîne carbonée, on parlera de **cétones**. 
+  
+![Figure: Différence Aldose - Cétose](../Images/Aldose-cétose.png)
+  
+#### Formation d'hémiacétal (Formes cycliques des pentoses-hexoses)
+En solution aqueuse, les monosaccharides possédant au moins 5 atomes de carbone forment des structures cycliques dans lesquelles le groupement carbonyle forme une liaison covalente avec l'oxygène d'un groupement hydroxyle. Il y a alors formation d'un hémiacétal. Les hémiacétals peuvent être sous forme furanique (5C. ex: ribose) et pyranique (6C. ex: glucose, fructose).
+  
+#### Les disaccharides
+L’interaction entre deux monosaccharides est réalisable au moyen d’un lien *osidique* (éther). Si un glucose se lie avec un fructose, on obtient du saccharose. L'amidon quant à lui est formé d'amylose (25%) et d'amylopectine (75%), tout deux polymères de glucose.
+  
+#### Furfural
+**A pH < 7 (acide):** Les pentoses se déshydratent et deviennent des résidus furfural (si 6C: furfural avec hydroxyméthyl en C5).
+  
+#### Isomérisation de De Bryun - Von Ekenstein
+Cétose <---> Aldose à pH 7.
+  
+Aussi, les disaccharides (maltose, saccharose) et les polysaccharides (glycogène, amidon) sont hydrolysés en milieu acide. Les monosaccharides (fructose, glucose) ainsi libérés sont ensuite transformés en fufural (voir point ci dessus).
+  
+#### Les polysaccharides
+Constitués de longues chaînes récurrentes ou non de monomères, ils remplissent des fonctions de réserve (amidon) ou de structure (cellulose).
   
 ### But
-
+Le but premier est de mettre en évidence les différences entre les carbohydrates préparés. Les test de Fehling et de Tollens permettent de différencier les aldoses des cétoses, et la digestion du glucose permettra de comprendre le métabolisme du glucose par ces fungi procaryotes en milieu anaérobique, ce qui ultimement nous permettra de trouver le rendement de cette fermentation alcoolique.
   
 ### Matériel
-
+  
+* Liqueur de Fehling
+* Réactif de Tollens
   
 ### Méthodes
 

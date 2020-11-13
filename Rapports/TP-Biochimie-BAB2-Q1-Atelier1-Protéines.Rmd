@@ -1,11 +1,13 @@
 ---
 title: "TP Biochimie BAB2 Q1"
-author: 
+author:
   - name: "Guillaume Gégo"
   - name: "Raphaël Deroux"
   - name: "Emeline Derycke"
 date: "03/11/2020"
-output: html_document
+output:
+  html_document: default
+  word_document: default
 ---
 ***
 ```{r setup, include=FALSE}
@@ -13,9 +15,8 @@ knitr::opts_chunk$set(echo = TRUE)
 SciViews::R
 library(dplyr)
 library(ggridges)
-library(gdata) # load gdata package 
-#help(read.xls) # documentation 
-#brad1 <- read.xls("Data-courbe-etalonnage-braford-A1.xls")
+# Excel import packages
+library(readxl)
 ```
   
 ## **Atelier 1:** Les Protéines
@@ -23,7 +24,7 @@ library(gdata) # load gdata package
 ### Introduction
   
 #### Qu'est-ce qu'une protéine?
-Une protéine est une macromolécule polymère dont les monomères sont les acides aminés (aa). Les protéines sont les composés organiques les plus abondants dans les cellules: ils constituent plus de 50% de leur masse sèche. Elles sont directement codées à partir des gènes (transcription: 1 gène code pour une ou plusieurs protéines) et synthétisées par les ribosomes à partir d'acides aminés simples (traduction) t elles permettent le fonctionnement de toute cellule vivante. 
+Une protéine est une macromolécule dont les monomères sont les acides aminés (aa). Les protéines sont les composés organiques les plus abondants dans les cellules: ils constituent plus de 50% de leur masse sèche. Elles sont directement codées à partir des gènes (transcription: 1 gène code pour une ou plusieurs protéines) et synthétisées par les ribosomes à partir d'acides aminés simples (traduction). Elles permettent le fonctionnement de toute cellule vivante. 
   
 #### Rôles des protéines
 Qu'elles soient transportrices, hormonales, structurales, co-factrices, signalétiques, régulatrices, enzymatiques ou autres, les protéines forment un protéome de plus d'1 million de protéines. Ces protéines présentent différent niveaux de structuration: primaire, secondaire, tertiaire et quaternaire.
@@ -31,29 +32,30 @@ Qu'elles soient transportrices, hormonales, structurales, co-factrices, signalé
 #### Les niveaux de structuration
 * **La structure primaire**: agencement covalent des acides aminés entre eux. L'ordre des acides aminés en partant de l'extrémité N-terminale vers l'extrémité C-terminale définit la nature de la protéine produite.
   
-* **La structure secondaire**: conformations **localisées** et **répétées** le long de la chaîne polypeptidique.Elles sont de 4 types majeurs :les hélices alpha, les feuillets plissés bêta, les tonneaux bêta et les tournants bêta. Ces 4 exemples sont des **"motifs"** et l'association de motifs donnera ensuite des **"domaines"**, qui sont les unités de structure de la structure tertiaire. La fonction de la structure secondaire est de catalyser le reploiement tridimentionnel de la protéine par le biais des motifs qui s'assemblent en domaines, constituant ainsi de véritables noyaux de nucléation qui catalysent le folding de la chaîne d'aa. Les propriétés de ceniveau de structuration sont directement dues à la structure du lien peptidique (plan et polaire) et de son lien amide à entonoir structural. Ce niveau de structuration n'est stabilisé que par des liens hydrogène.
+* **La structure secondaire**: conformations **localisées** et **répétées** le long de la chaîne polypeptidique.Elles sont de 3 types majeurs :les hélices alpha, les feuillets plissés bêta et les tournants bêta (+tonneaux bêta). Ces 4 exemples sont des **"motifs"** et l'association de motifs donnera ensuite des **"domaines"**, qui sont les unités structurales de la structure tertiaire. La fonction de la structure secondaire est de catalyser le reploiement tridimentionnel de la protéine par le biais des motifs qui s'assemblent en domaines, constituant ainsi de véritables noyaux de nucléation qui catalysent le folding de la chaîne d'aa. Les propriétés de ce niveau de structuration sont directement dues à la structure du lien peptidique (plan et polaire) et de son lien amide à entonoir structural. Ce niveau de structuration n'est stabilisé que par des liens hydrogène.
   
 * **La structure tertiaire**: agencement des structures secondaires (domaines) dans l'espace tridimentionnel. Ce niveau de structuration optionnel n'est stabilisé que par des liens de faible énergie tels que:
-  + Les interaction hydrophobes et hydrophiles (V.D.W.)
-  + Les liens hydrogène
-  + Les interactions dipôles-charges
-  + Les liasons ioniques
+  + Les interaction hydrophobes et hydrophiles (V.D.W.).
+  + Les liens hydrogène.
+  + Les interactions dipôles-charges0
+  + Les liaisons ioniques.
+  
 Les boucles inter-domaines portent souvent l'activité de la protéine!
   
-* **La structure quaternaire**: association dans l'espace tridimentionnel des différentes chaines polypeptidiques. Ce niveau de structuration n'est stabilisé que par des liens de faible énergie (voir structure tertiaire), MAIS il est rigidifié par liens disulfure S-S covalents (en dehors du milieu réducteur de la cellule). Ce niveau d'organisation apporte deux "avantages" majeures:
-  + Présence de structures particulières: cavités centrales (hémoglobine)
-  + Phénomène de coopérativité: les sous-unités interagissent entre elle de telle sorte que la modification conformationnel de l'une d'entre elles engendre l'augmentation de l'efficacité des autres sous-unités. Si une protéine a une structure quaternaire (plus d'une sous-unité) et présente des propriétés de coopérativité, elle est dite **allostérique**.
+* **La structure quaternaire**: association dans l'espace tridimentionnel des différentes chaines polypeptidiques. Ce niveau de structuration n'est stabilisé que par des liens de faible énergie (voir structure tertiaire), MAIS il est rigidifié par liens disulfure S-S covalents (en dehors du milieu réducteur de la cellule). Ce niveau d'organisation apporte deux "avantages" majeurs:
+  + **Présence de structures particulières:** cavités centrales (hémoglobine). Ces structures ont une forte relation stuture-fonction et servent souvent à clusteriser un élément.
+  + **Phénomène de coopérativité:** les sous-unités interagissent entre elles de telle sorte que la modification conformationnel de l'une d'entre elles engendre l'augmentation de l'efficacité des autres sous-unités. Si une protéine a une structure quaternaire (plus d'une sous-unité) et présente des propriétés de coopérativité, elle est dite **allostérique**.
   
 #### Dénaturation des protéines
-Toutes ses structures sont stabilisées par des liasons de forte et de faible énergie. Il est bien évidemment possible de **dénaturer** (briser la structure de) la protéine en utilisant diverses méthodes:
+Toutes ces structures sont stabilisées par des liasons de forte et de faible énergie. Il est bien évidemment possible de **dénaturer** (briser la structure de) la protéine en utilisant diverses méthodes:
   
-* Chaleur (ex: coagulation de l'albumine du blanc d'oeuf).
-* Rayons UV et radiations ionisantes.
-* Variations de pH.
-* Détergents.
-* Solvants organiques.
-* Solution d'urée ou de guanidine.
-* Simple dilution ou agitation.
+* **Chaleur (ex: coagulation de l'albumine du blanc d'oeuf):** Vu que la structure d'une molécule est basée sur les interaction énergétiques de faible et de forte énergies, l'apport d'énergie au système va dérégler ce système de stabilisation énergétique et perturber les liens, ce qui engendrera la dénaturation de la protéine.
+* **Rayons UV et radiations ionisantes.**
+* **Solution d'urée ou de sels de guanidine:** Perturbe les liens hydrogènes. En effet, l'urée et la guanidine sont des chaotropes qui dénaturent la structure tertiaire des protéines en interagissant avec interaction de faible énerie. Dans ce cas-ci, l'urée est un agent rupteur de liaisons hydrogènes par excellence à cause de sa grande tendance à former des liens hydrogènes (6: 2N et 1O) (ce qui perturbe les liens hydrogènes stabilisant la protéine).
+* **Variations de pH.**
+* **Détergents:** perturbent les interaction hydrophobes.
+* **Solvants organiques.**
+* **Simple dilution ou agitation.**
   
 #### Absborbance des protéines dans le spectre lumineux (spectrophotométrie)
 Comme établi précédemment, la liaison peptidique confère des propriétés fascinantes aux protéines. L'une d'entre est l'absorption importante aux longueurs d'onde < 230 nm (UVc). Certaines protéines possèdent néanmoins aune absorption dans une gamme plus élevée (250-300 nm, UVb et c), que ce soit à cause de leur radical phényle/ol (Phénylalanine et Tyrosine) ou du noyau indole (Tryptophane).
@@ -65,31 +67,46 @@ Cette absorption est d'ailleur intimement liée aux procédés de spectrophotom�
 ### But de la manipulation
 Cette manipulation est segmentée en deux parties:
   
-* **La séparation de protéines par colonne de chromatographie:** cette partie a pour but de séparer 3 molécules (Blue dextran, Hémoglobine et Ferycianine de K) selon leur taille. Pour ce faire, on utilise un gel de dextrane à différent domaines de réticulation: le **Sephadex** (phase stationnaire), constamment hydraté par une solution de NaCl 0.9% (9g de NaCl pour 1L d'eau ≃ solution physiologique). Par élution des 3 protéines à travers deux types de Sephadex, nous pourrons les différencier selon leur taille grâce à leur vitesse de progression à travers le Sephadex mais aussi selon leur volume nécessaire pour être éluées.
+* **La séparation de protéines par colonne de chromatographie:** cette partie a pour but de séparer 3 molécules (Blue dextran, Hémoglobine et Ferycianine de K) selon leur taille. Pour ce faire, on utilise un gel de dextrane à différent domaines de réticulation: le **Sephadex** (phase stationnaire), constamment hydraté par une solution de NaCl 0.9% (9g de NaCl pour 1L d'eau ≃ solution physiologique). Par élution des 3 protéines à travers deux types de Sephadex, nous pourrons les différencier selon leur taille grâce à leur vitesse de progression à travers les Sephadex mais aussi selon leur volume nécessaire pour être éluées.
   
 * **La séparation de protéines par spectrophotométrie:** 
-cette partie se base dans un premier temps sur l'absorption du rayonnement UV par les protéines (280 nm pour les aa aromatiques et 230 nm pour les lien peptidiques) et dans un second temps sur la fixation non covalente de bleu de Coomassie ("l’interaction avec les groupements fonctionnels basiques et/ou aromatiques des protéines permet le passage de la forme cationique vers anionique (595 nm)" *- c.f. dia 13 Travaux pratiques de biochimie 2020-2021 par L. Colignon*). La première expérience permettra de confirmer que le pic d'absorption aux UV de protéines du blanc d'oeuf est bien de 280 nm, et la seconde permettra de déterminer la concentration en protéines dans le blanc d'oeuf.
+  + Dans un premier temps, nous analiserons l'absorption du rayonnement UV par les protéines (280 nm pour les aa aromatiques et 230 nm pour les lien peptidiques).La mesure d'absorption UV du BSA permettra de vérifier sa concentration protéique exacte (à l'aide de Beer-Lambert), et la suite de l'expérience permettra de confirmer que le pic d'absorption aux UV de protéines du blanc d'oeuf est bien de 280 nm par la mesure des différentes solutions diluées (10X, 100X, 500X, 1000X).
+
+  + Dans un second temps, nous nous pencherons sur la fixation non covalente de bleu de Coomassie (solution de Bradford), dont "l’interaction avec les groupements fonctionnels basiques et/ou aromatiques des protéines permet le passage de la forme cationique vers anionique (595 nm)"[^1], ce qui nous permettra de calculer la concentration en protéines du blanc d'oeuf à partir d'une droite d'étalonnage au BSA préalablement établie.
+  
+[^1]:*c.f. dia 13 Travaux pratiques de biochimie 2020-2021 par L. Colignon.*
   
 ### Matériel
 #### Séparation de protéines par colonne de chromatographie
-* NaCl 0.9% (1L).
-* Sephadex G50 et G100.
-* Blue dextran 2000 (2000 000Da) 2mg/ml (100ml).
-* Hémoglobine (65 000 Da) 5mg/ml (100ml).
-* Ferrycianide de potassium  (329 Da)	2mg/ml (100ml).
+* NaCl 0.9% (1L): phase liquide.
+* Sephadex G50 et G100: phase solide.
+* Protéines analysées:
+  + Blue dextran 2000 (2 000 000Da) 2mg/ml (100ml).
+  + Hémoglobine (65 000 Da) 5mg/ml (100ml).
+  + Ferrycianide de potassium (329 Da) 2mg/ml (100ml).
 * Verres à pied et béchers.
 * Colonne de chromatographie (2), ouate, bouchon, tuyau, pipette pasteur.
   
+![Figure 1: Colonnes de chromatographie. Phase solide: G50 fine (gauche) et G100 (droite). Phase liquide: NaCl 0,9% dans le bécher (hydratation par vase communiquants). Récolte du volume d'élution dans les verres à pieds.](../Images/Dispositif-chromatographie.jpg)
+  
 #### Séparation de protéines par spectrophotométrie
-* BSA 1g/l
+* BSA 1g/l: Albumine bvine (étalonnage)
+* NaCl 0,9%: solvant physiologique pour analyse spectrophotométrique.
 * Blanc d’œufs (différentes dilutions : 10X, 100X, 500X, 1000X)
-* NaCl 0,9%
+  
+![Figure 2: NaCl 0.9% et dilutions de blancs d'oeuf](../Images/Solutions-blancs.jpg)
+  
 * Spectrophotomètre + cuvettes en plastique et en quartz.
-* Solution de Bradford
+* Solution de Bradford:
+  + Bleu de Coomassir G250 100mg
+  + Ethanol 95% 50 ml
+  + Acide phosphorique H3PO4 (85%) 100 ml o H2Od 1L
+  
+![Figure 3: Spectrophotomètre](../Images/Spectrophotomètre.jpg)
   
 ### Méthode 
 #### Séparation de protéines par colonne de chromatographie
-Deux solution de Sephadex préalablement préparées furent mises à notre disposition: une G50 et une G100. Un solution supplémentaire de NaCl 0,9 % fut aussi réalisée afin de nous permettre d'hydrater constamment le Sephadex, qui a besoin d'une phase mobile liquide pour éluer les protéines.
+Deux solution de Sephadex préalablement préparées furent mises à notre disposition: une G50 et une G100. Un solution supplémentaire de NaCl 0,9 % fut aussi réalisée afin de nous permettre d'hydrater constamment le Sephadex, qui a besoin d'une phase mobile liquide pour éluer les protéines. Un bécher hydratera constamment les deux colonnes goutte par goutte (vase communicants).
   
 Ensuite, il fallut remplir 2 colonnes de verre à 3/4 de leur capacité avec le G50 pour l'une et le G100 pour l'autre. La sédimentation du séphadex étant nécessaire, nous laissâmes le robinet ouvert, pour ensuite retirer, à l'aide d'une pipette pasteur, l'excès de NaCl 0.9% surnageant le Sephadex pour n'en laisser qu'un milimètre. Après avoir refermé le robinet, nous délivrâmes circulairement un volume de 150 µl de chaque protéine le long de la colonne en prenant gare à ne pas perturber la surface du gel.
   
@@ -98,18 +115,15 @@ La masse en dalton des différents composés est la suivante:
 * **Blue dextran (2.000.000 Da):** ce composé devrait aller rapidement vers le bas de la colonne (plus lourd).
 * **Hémoglobine (65.000 Da):** ce composé ira plus lentement.
 * **Ferycianine de K (329 Da):** ce composé sera assez lent et restera probablement un moment dans le quart supérieur de la colonne de chromatographie.
-
-De grosses protéines dépassant la limite d'exclusion pourront être observées, descendant à la même vitesse dans les deux Sephadex.
-A contrario, de petites protéines pourront être observées, avec une progression néanmoins plus rapide dans le Sephadex G50. En effet, les "billes" étant plus grosses, les petites protéines passeront au travers plus aisément.
-
-L'ouverture du robinet permit ensuite la pénétration de la phase stationnaire (Sephadex) par les différentes protéines (élution), tandis que la phase mobile (NaCl) était constamment renouvelée pour permettre l'élution protéique. Une fois l'élution achevée, nous recueillâmes le tampon mélangé aux protéines dans un verre à pied afin de comparer les volumes d'élution des différentes protéines à travers le G50 et le G100.
-
-Cette étape achevées, une courbe étalon fut élaborée sur excel à partir des données recueillies.
-
+  
+L'ouverture du robinet permit ensuite la pénétration de la phase stationnaire (Sephadex) par les différentes protéines (élution), tandis que la phase mobile (NaCl) était constamment renouvelée pour permettre l'élution protéique. Au cours de l'élution, nous recueillâmes le tampon mélangé aux protéines dans un verre à pied afin de comparer les volumes d'élution des différentes protéines à travers le G50 et le G100.
+  
+Cette étape achevées, une courbe étalon fut élaborée sur excel, puis Rstudio à partir des données recueillies.
+  
 #### Séparation de protéines par spectrophotométrie
 Cette partie commença par le préparation des solutions suivantes:
   
-* [1] Une solution de BSA (albumine bovine) 0.1%. Nous avons décidé de préparer 3 ml de solution avec 3 mg de BSA pour éviter toute erreur trop importante lors de la pesée. La concentration de 1 mg/ml fut plus tard vérifiée par spectrophotométrie (1,02 mg/L **-insérer calcul-**)
+* [1] Une solution de BSA (albumine bovine) 0.1%. Nous avons décidé de préparer 3 ml de solution avec 3 mg de BSA pour éviter toute erreur trop importante lors de la pesée. La concentration de 1 mg/ml fut plus tard vérifiée par spectrophotométrie. En effet, selon Beer-Lambert: A = ε.L.C (avec A= .., ε = 0.66, L = )
 * [2] Une solution de NaCl 0.9% (9g de Nacl dan 1L d'eau).
 * [3] Quelques solutions de blanc d’œuf dilué au NaCl 0.9% (10x, 100x, 500x et 1000x).
 **insérer calculs**
@@ -117,73 +131,135 @@ Cette partie commença par le préparation des solutions suivantes:
   
 **2 méthodes seront utilisées:** La méthode par *absorption UV* et la méthode de *Bradford*.
 
-##### Par l'absorption des UV
+##### **Absorption des UV**
 La mesure de l'absorbance de BSA [1] se fît à 280nm à l'aide de cuvettes en quartz (le plastique est peu adéquat car il absorbe dans l'UV). 
-* **Mesure du BSA et vérification de la concentration (1mg/ml):**
-
-Une rapide recherche dans les tables nous confirma que la valeur du coefficient d'absorption molaire du BSA à 280 nm était bien de 0.66 L/mol.cm.
   
-L'analyse se poursuivit par l'établissement d'un spectre d'absorption des solution de blanc d'oeuf préparée préalablement [3]. La valeur initiale d'absorption était de ... (0.2-0.5) à 250 nm. Un test blanc a été effectué entre chaque changement de longueur d'onde.
-
+* **Mesure du BSA et vérification de la concentration (1mg/ml):** Une rapide recherche dans les tables nous confirma que la valeur du coefficient d'absorption molaire du BSA à 280 nm était bien de 0.66 L/mol.cm. 
+  
+* **Mesure de l'absorbance des solutions diluées de blancs d'oeuf:** L'analyse se poursuivit par l'établissement d'un spectre d'absorption des solution de blanc d'oeuf préparée préalablement [3]. La valeur initiale d'absorption était de ... (0.2-0.5) à 250 nm. Un test blanc a été effectué entre chaque changement de longueur d'onde.
+  
+##### **Méthode de Bradford**
+Les solutions [1], [2], [3] et [4] furent utilisées dans cette partie.
+  
+![Figure 2: De gauche à droite: solution de Bradford (30 mL), échantillons d'étalonnage (18) et BSA 1g/L (3ml)](../Images/Bradford-echantillons.jpg)
+  
+![Figure 3: De gauche à droite: solution de NaCL (30 mL), échantillons de blanc d'oeufs dilués (4)](../Images/Solutions-blancs.jpg)
+  
+Pour cette partie, nous commençâmes par la réalisation de la droite d'étalonnage avec en ordonées l'absorbance de la solution de Bradford et en abscisse la concentration en BSA (calculée par la loi de Beer Lambert). Pour cela, nous avons disposé 18 tubes à essai dans une boîte en polystyrène (3 essais par échantillon - *voir figure 2*).
+  
+Nous avons pour cela pris 18 petits tubes à essais, numérotés en trois séries de 6, et le blanc.
+Nous avons pipeté les concentrations en albumine du tableau suivant. 
+  
+```{r}
+brad1 <- read_excel("~/shared/projects/TP-Bioch-BAB2-Q1/Excel/brad1.xlsx")
+  
+brad1
+```
+  
+Nous avons amené le volume de chaque cuvette à 100µl avec de l'eau distilée, pour ensuite finir par ajouter 4mL de solution de Bradford (2,5 mL dans notre échec, les solutions avaient été directement préparées dans les cuvettes). 
+  
+Après avoir attendu une dizaine de minutes, nous avons mesuré l’absorbance des échantillons à 595nm (cuvettes plastique) de chaque tube par rapport à un blanc (100 µL d'eau distilée et 4mL de colorant). 
+  
+Après cela, nous avons réalisé le même test avec les solutions diluées de blanc d'oeuf afin de pouvoir déterminer leur concentration en protéine respectives. 8 cuvettes furent remplies par 100µL de dilution de blanc d'oeufs et 4 mL de colorant. 2 cuvettes furent utilisées comme blanc (NaCl 0.9% + 4mL de colorant Bradford).
+  
+Les cuvettes plastiques furent ensuite passées au spectrophotomètre de masse à 595nm **par rapport à de l'eau distillée (?)**
+  
+```{r}
+brad2 <- read_excel("~/shared/projects/TP-Bioch-BAB2-Q1/Excel/brad1.xlsx")
+  
+brad2
+```
+  
+La concentration en albumine sera déterminée grâce à la courbe d'étalonnage précédemment établie.
+  
+### Résultats
+  
+#### Absorption des UV
 ```{r}
 #Insérer excel UV1
 #graphique d'étalonnage
 ```
-
-
   
-##### Par la méthode de Bradford
-Les solutions [1], [2], [3] et [4] furent utilisées dans cette partie.
-
-![Figure 2: De gauche à droite: solution de Bradford (30 mL), échantillons d'étalonnage (18) et BSA 1g/L (3ml)](../Images/Bradford-echantillons.jpg)
-
-![Figure 3: De gauche à droite: solution de NaCL (30 mL), échantillons de blanc d'oeufs dilués (4)](../Images/Solutions-blancs.jpg)
-
-Pour cette partie, nous commençâmes par la réalisation de la droite d'étalonnage avec en ordonées l'absorbance de la solution de Bradford et en abscisse la concentration en BSA (calculée par la loi de Beer Lambert). Pour cela, nous avons disposé 18 tubes à essai dans une boîte en polystyrène (3 essais par échantillon - voir figure 2).
-
-Nous avons pour cela pris 18 petits tubes à essais, numérotés en trois séries de 6, et le blanc.
-Nous avons pipeté les concentrations en albumine du tableau suivant. 
-
+#### Méthode de Bradford
 ```{r}
-#Afficher brad1
-```
-
-Nous avons amené le volume de chaque cuvette à 100µl avec de l'eau distilée, pour ensuite finir par ajouter 4mL de solution de Bradford (2,5 mL dans notre échec, les solutions avaient été directement préparées dans les cuvettes). 
-
-Après avoir attendu une dizaine de minutes, nous avons mesuré l’absorbance des échantillons à 595nm (cuvettes plastique) de chaque tube par rapport à un blanc (100 µL d'eau distilée et 4mL de colorant). 
-  
-```{r}
-#graph brad1 -> faire excel d'abord
+#Insérer excel brad1
+#graphique d'étalonnage
 ```
   
-
-
-<!---
-Ensuite, nous avons réalisé le même test mais avec le blanc d’œuf pour pouvoir déterminer
-la concentration en protéines qu’ils ont.
-Pour cela, nous avons eu besoin de nos solutions diluées de blanc d’œuf. Nous avons ici eu
-besoin de 10 petits tubes à essais, 2 pour chaque dilution, et 2 blancs. Nous avons ajouté
-100µl de leur dilution de blanc d’œuf ou de NaCl 0.9% pour les blancs. Nous avons ajouté
-4ml de colorant dans chaque tube, qui sont ensuite passés au vortex pour bien
-homogénéiser. Entre 5 minutes et 1heure après cela, nous avons mesuré l’absorbance à
-595nm ( encore dans des tubes en plastique ) de chaque tube par rapport à de l’eau distillée.
-Nous devrions donc normalement pouvoir déterminer la concentration en albumine dans le
-blanc d’œuf grâce à notre courbe étalon précédemment réalisée.
---->
-  
 ```{r}
-#graph brad2 -> faire excel d'abord
+#Insérer excel brad2
+#graphique d'étalonnage
 ```
   
-### Résultats
+#### Séparation de protéines par colonne de chromatographie
+La séparation des protéines se fait par rapport à leur masse moléculaire (Daltons) selon le domaine de rétulation des Séphadex (domaine de filtration).
+Le domaine de réticulation (fractionnement) du Séphadex G50 est compris entre 1500 Da et 30 000 Da, tandis que le celui du G100 est compris entre 4000Da et 100 000 Da.
+  
+Le volume mort est le volume nécessaire pour permettre l'écoulement de toutes les protéines ayant une masse supérieure au domaine de réticulation du Sephadex.
+  
+Le volume d'élution est le volume nécessaire pour permettre l'écoulement de toutes les protéines ayant une masse comprise ou inférieure au domaine de réticulation du Sephadex.
+  
+* **Blue Dextran:** Vu que sa masse moléculaire (2 000 000 Da) est supérieure à la limite supérieure des domaines de réticulation des deux Sephadex, le volume récupéré dans les verres à pied est donc dans les deux cas le volume mort.
+  
+* **Hémoglobine:** Vu que sa masse moléculaire (65 000 Da) est supérieure à la limite supérieure du domaine de réticulation du Séphadex G50 mais comprise dans le domaine du G100, le volume récupéré dans le verre à pied sous le G50 est donc dans le volume mort (± égal au volume mort du bleu dextran). Celui récupéré dans le G100 est le volume d'élution. Le volume d'élution est toujours supérieur au volume.
 
+* **Ferrycianide de potassium:** Vu que sa masse moléculaire (329 Da) est inférieure à la limite inférieure des domaines de réticulation des deux Sephadex, le volume récupéré dans les verres à pied est donc dans les deux cas le volume d'élution. Ce volume est plus grand car les molécules de Ferrycianide de potassium étant les moins massives, elles sont les dernières à sortir de la colonne de chromatographie.
+  
+__En résumé:__
+* **G50:** Volume mort = ±10 mL et Volume d'élusion = ±20.5 mL.
+  
+* **G100:** Volume mort = ±8.5 mL et Volume d'élusion = ±15.5 mL.
+  
+Voici les données récupérées par le groupe de Bastien De Tandt, notre chromatographie ayant donné des résultats moins visibles et moins concluants:
+  
+```{r Chroma import}
+# Import dataframe
+Chroma <- read_excel("~/shared/projects/TP-Bioch-BAB2-Q1/Excel/Chroma.xlsx")
+  
+Chroma
+```
+
+##### Courbe d'étalonnage de Séphadex G100
+```{r Chroma GrapheG100}
+# Build graph
+chart(Chroma, VéluG100 ~ MMprot) +
+  geom_point(na.rm = TRUE, aes(color = Protéines)) +
+  geom_smooth(method = "lm", se = FALSE, na.rm = TRUE) +
+  scale_x_continuous(trans = 'log2') +
+  labs(x = "Logarithme de la Masse Moléculaire (log(Da))", y = "Volume d'élution (mL)", title = "Courbe d'étalonnage du Séphadex G100") +
+  scale_fill_viridis_d()
+```
+  
+##### Courbe d'étalonnage de Séphadex G50
+```{r Chroma GrapheG50}
+# Build graph
+chart(Chroma, VéluG50 ~ MMprot) +
+  geom_point(na.rm = TRUE, aes(color = Protéines)) +
+  geom_smooth(method = "lm", se = FALSE, na.rm = TRUE) +
+  scale_x_continuous(trans = 'log2') +
+  labs(x = "Logarithme de la Masse Moléculaire [log(Da)]", y = "Volume d'élution [mL]", title = "Courbe d'étalonnage du Séphadex G50") +
+  scale_fill_viridis_d()
+```
   
 ### Discussion
-
+  
+#### Absorption des UV
+  
+#### Méthode de Bradford
+  
+#### Séparation de protéines par colonne de chromatographie
+Les courbes d'étalonnages sont globalement décroissantes. Cependant, nous pouvons constater que, à partir d'une certaine masse, nous obtenons un volume plus ou moins constant. Il correspond au volume mort.
+  
+Donc, pour n'importe quelle masse au dessus du volume mort, on aura toujours un volume égal au volume mort.
   
 ### Conclusion
-
-
+#### Absorption des UV
+  
+#### Méthode de Bradford
+  
+#### Séparation de protéines par colonne de chromatographie
+Cette expérience nous a permis d'établir les droites d'étalonnage des deux Séphadex à notre disposition, et d'ainsi établir leur volumes morts et d'élution. Les 3 protéines ont correctement été différenciées selon leur masse.
+  
 ### Bibliographie
 
 
