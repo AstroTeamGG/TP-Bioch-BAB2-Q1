@@ -16,7 +16,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Introduction
 #### Qu’est-ce qu’un lipide?
-Les lipides sont des molécules amphiphiles à caractère hydrophobe prononcé. A température ambiante, les lipides peuvent être à l'état solide(cires) ou liquide (huiles). Les stéroïdes et le phosphatidylinositol (glycérophospholipides) sont les seuls lipides à porter un rôle informationnel.
+Les lipides sont des molécules amphiphiles à caractère hydrophobe prononcé. A température ambiante, les lipides peuvent être à l'état solide(cires) ou liquide (huiles). Ceux-ci contituent la matière grasses des êtres vivants et ils sont l'un des constituants majeurs des membranes organiques. On peut les classer en trois groupes : 
+* Les Phospholipides : sont des lipides de structure et il y en existe 2 groupes: les glycérophospholipides et les sphingolopides.
+* Les Glycolipides: leur rôle est de stabiliser la membrane cellulaire et il y en existe 2 groupe: les sphigolipides et les glactolipides.
+* Les Stéroïdes: n'ont rien avoir avec la struture des acides gras comme les deux autres. Leur molécule est constitué de cycle et jouent un rôle d'hormones. C'est pourquoi, ils n'interviennent pas au niveau de la structure des mebranes.
+Les stéroïdes et le phosphatidylinositol (glycérophospholipides) sont les seuls lipides à porter un rôle informationnel.
 
 <!---
 D’un point de vue biologique :
@@ -49,24 +53,32 @@ Préparer des solutions qui nous permettront de séparer les trois principales c
 * [6] 66 mL Ether diéthylique
 * [7] 100 mL Acétone
   
+![Figure 1: de gauche à droite: solution solvant chloroforme/méthanol, solution de KOH saturée, solution de KOH dans l'alcool, solution de chlorure de cadmium et solution de chlorure de calcium 2M](../Images/Solutions-lipides.jpg)
+
 ### Méthodes
   
 #### Séparation des lipides
-Cela s’est déroulé en deux étapes. Tout d’abord, il a fallu extraire le lard et la cervelle : 30g de tissus pour 4 ml de solvant. Le tout a été broyé mécaniquement avec un mélange de méthanol/chloroforme (1 pour 2). Les résidus insolubles ont été éliminés par filtration à  travers étammine. 
-  
-Sous hôte, le solvant fut éliminé par évaporation sur une plaque électrique. Nous allons commencer à séparer les différentes classes…
-  
+Cela s’est déroulé en deux étapes. Tout d’abord, il a fallu extraire le lard et la cervelle : 15g de chaque tissus pour 40 ml de solvant. Chaque extrait a été broyé mécaniquement avec un mélange de méthanol/chloroforme (1 pour 2). Les résidus restant ont été éliminés par filtration à  travers étammine pour qu'il n'ait plus résidus insolubes. 
+Une fois la première étape terminée, on a mis sous hôte,les deux extraits. Le solvant fut éliminé par évaporation sur une plaque électrique.
+
+![Figure 2: Elimination du solvant sur plaque éléctrique](../Images/Plaque électrique.jpg)
+
 ##### Précipitation de phospholipides
-Après refroidissement, les résidus de l'évaporation furent dissout danss 2 mL d'éther [6]. Pour la cervelle cependant, nous avons dû OCTUPLER les quantités de solvant (16 mL d'éther, 40 gouttes de CdCl2 et 48 mL d'acétone) car apparemment, l'échantillon était saturé en graisses. Les produits de dissolution du lard furent ensuite versés dans un flacon falcon avec 5 gouttes de CdCl2 et 6 mL d'acétone (cervelle avec quantités octuplées), puis centrifugés.
-  
-Etant donné que les sels de cadmium phospholipides sont insolubles dans une solution d'acétone dans une solution d’acétone et d’éther, nous devrions donc nous attendre à apercevoir un précipité.
+Après refroidissement, les résidus de l'évaporation furent dissout dans 2 mL d'éther [6]. Pour la cervelle cependant, nous avons dû OCTUPLER les quantités de solvant (16 mL d'éther, 40 gouttes de CdCl2 et 48 mL d'acétone) car apparemment, l'échantillon était saturé en graisses. Les produits de dissolution du lard furent ensuite versés dans un  tube à centrifuger avec 5 gouttes de CdCl2 et 6 mL d'acétone (cervelle avec quantités octuplées), puis les deux tubes sont passés à la centrifugeuse.
+
+![Figure 3: Tube à centrifuge de cervelle](../Images/Tube-centrifuge-cervelle.jpg)
+
+![Figure 4: Tube à centrifuge de lard](../Images/Tube-centrifuge-lard.jpg)
+
+Nous pouvony voir qu'il y a une différence de volume entre la cervelle et le lard quand il ne faut pas oublier qu'on a du octupler les doses de solvant.
+Etant donné que les sels de cadmium phospholipides sont insolubles dans une solution d'acétone et d’éther, nous devrions pouvoir apercevoir un précipité dans le fond du tube.
   
 ##### Saponification des graisses neutres
-Dans le surnageant, seuls les graisses neutres et le cholestérol sont encore présents. Il a fallu décanter ce surnageant dans un bécher marqué au lard ou à la cervelle. Une solution de KOHalcool a été ajoutée et le tout a été mélangé. 
+Dans le surnageant, ils ne restent que les graisses neutres et le cholestérol. Il a fallu décanter ce surnageant dans un bécher marqué au lard ou à la cervelle. Une solution de KOH alcool a été ajoutée et le tout a été mélangé. 
+Ce mélange fut placé sous hotte, chauffé et évaporé. Ceci provoque la saponification des graisses neutres. Il reste au fond du bécher une masse, le savon (sels de potassium).
 
 Le surnageant de cerveau faisait 38 mL, et le culot occupait jusqu'à 2 ml dans le flacon falcon. Nous avons donc décider de quadrupler la quantité de KOH Alcool (24 mL), même si en ratio ça aurait dû être 4,75 fois plus. 
-  
-*Le potassium réagit avec le carboxyle, et le groupement OH va former le glycérol. Sous la hotte, nous l’avons évaporé, ce qui a provoqué la saponification des graisses neutres. Les acides gras ainsi libérés ont été présents sous forme de savons (sels de potassium).*
+Le potassium va réagir avec le carboxyle, et le groupement hydroxyl va former le glycérol.  Les acides gras ainsi libérés ont été présents sous forme de savons (sels de potassium).*
   
 ##### Séparation des savons et du cholestérol
 *Nous avons dissout le bêcher contenant de la cervelle à l’aide de 7ml d’alcool à 50%, après avoir refroidi le tout. Ensuite, nous avons transvasé tout cela dans une ampoule à décanter 10ml d’éther de pétrole a été ajouté.*
