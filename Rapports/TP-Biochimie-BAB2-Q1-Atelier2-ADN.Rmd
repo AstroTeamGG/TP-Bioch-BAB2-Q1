@@ -88,7 +88,7 @@ Remarque: Pendant les manipulations d’extraction, il faut faire attention à n
 ![Figure 3: Solution SDS 5% - Ethanol 45%](../Images/SDS.jpg)
   
 #### Extraction et précipitation
-La première étape de cette expérience était de prélever 10g de thymus de veau (figure 3) pour ensuite le mixer avec un tampon glacé,nous avont préparer 750ml de tampon, préparé préalablement à partir de 6,75g NaCl 0.9% et 2,205g citrate de sodium 0.1M.
+La première étape de cette expérience était de prélever 10g de thymus de veau (figure 3) pour ensuite le mixer avec un tampon glacé. 750ml de tampon furent donc préparés préalablement à partir de 6,75g NaCl 0.9% et 2,205g citrate de sodium 0.1M (mis au trait avec de l'eau distiliée)/
   
 ![Figure 4: 10 g de thymus de veau](../Images/Thymus.jpg)
 
@@ -106,9 +106,9 @@ Nous avons ensuite rajouté 13g de NaCl solide dans le bécher. Une agitation co
 Enfin, l'ADN fut transvasé dans une solution de 100ml de tampon glacé pour éviter toute modification de sa structure.
   
 ####  Dénaturation de l’ADN purifié
-Comme précédemment détayé dans l'introduction, il existe plusieurs moyens de dénaturer l'ADN. Celui que nous utiliserons aujourd'hui sera la **chaleur**.
+Comme précédemment expliqué dans l'introduction, il existe plusieurs moyens de dénaturer l'ADN. Celui que nous utiliserons aujourd'hui sera la **chaleur**.
   
-Les étapes qui suivent consisteront en une alternance entre la chauffe de la solution et la mesure de sa Densité Optique à 260 nm (cuvettes en quartz pour UV car le plastique absorbe l'UV). La première mesure se fair à température ambiante car l'ADN est encore sous forme de double brins non dénaturés. La solution d'ADN doit cependant avoir une DO unitiale située entre 0.2 et 0.3 (0.221 dans notre cas). La solution fut ensuite placée sur plaque chauffante et sa densité optique fut mesurée tous les 5°C jusque 100°C. 
+Les étapes qui suivent consisteront en une alternance entre la chauffe de la solution et la mesure de sa Densité Optique à 260 nm (cuvettes en quartz pour UV car le plastique absorbe l'UV). La première mesure se fait à température ambiante car l'ADN est encore sous forme de double brins non dénaturés. La solution d'ADN doit cependant avoir une DO unitiale située entre 0.2 et 0.3 (0.221 dans notre cas). La solution fut ensuite placée sur plaque chauffante et sa densité optique fut mesurée tous les 5°C jusque 100°C. 
   
 ![Figure 8: Station de traitement de données de spectrométrie](../Images/Spectro-A2.jpg)
   
@@ -135,7 +135,7 @@ chart(ADN, Absorbance ~ Température) +
 ```
   
 ### Discussion
-Un brusque changement de densité optique devait montrer la température de fusion. La température de fusion Tm semble être d'environ 80°C (là où la courbe devient plus rapide). Nous pouvons utiliser cette donnée dans le calcul suivant:
+Un brusque changement de densité optique devait montrer la température de fusion. La température de fusion Tm semble être d'environ 80°C (là où la courbe devient plus raide). Nous pouvons utiliser cette donnée dans le calcul suivant:
   
 ![](../Images/ATCG.jpg)
   
