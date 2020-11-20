@@ -47,10 +47,10 @@ Les analyss 'ADN d'Edwin Chargaff montrent qu'il y a autant d'adénine (A) que d
 Par ailleurs, la composition en bases azotées peut être quantifiée par la formule suivante:
 ![](../Images/ATCG.jpg)
   
-Les bases azotées de l'ADN sont liées entre elles par des liaisons hydrogènes au sein de la double hélice. Les guanines sont tripliment liées aux cytosines, tandis que les thymines sont doublement liées aux adénines. Un échantillon dénaturé par la chaleur comportera plus de GC que de AT dû. En effet, une température de fusion plus importante va être nécessaire pour briser les liaisons C-G du à leur stabilité plus importante (une liaison H en plus).
+Les bases azotées de l'ADN sont liées entre elles par des liaisons hydrogènes au sein de la double hélice. Les guanines sont triplement liées aux cytosines, tandis que les thymines sont doublement liées aux adénines. Un échantillon dénaturé par la chaleur comportera plus de GC que de AT. En effet, une température de fusion plus importante va être nécessaire pour briser les liaisons C-G du à leur stabilité plus importante (une liaison H en plus).
   
 ### But
-Extraire et précipiter l'ADN contenue dans du thymus de veau (riche en ADN dû à la synthèse protéique importante). Ensuite dénaturer l’ADN afin de mesurer la densité optique, pour déterminer la composition en bases azotées AT et CG.
+Extraire et précipiter l'ADN contenu dans du thymus de veau (riche en ADN dû à la synthèse protéique importante). Ensuite dénaturer l’ADN afin de mesurer la densité optique, pour déterminer la composition en bases azotées AT et CG.
   
 Remarque: Pendant les manipulations d’extraction, il faut faire attention à ne pas altérer l’ADN: éviter les pH extrêmes, les températures élevées et les faibles forces ioniques.
   
@@ -105,7 +105,7 @@ Enfin, l'ADN fut transvasé dans une solution de 100ml de tampon glacé pour év
 ####  Dénaturation de l’ADN purifié
 Comme précédemment étayé dans l'introduction, il existe plusieurs moyens de dénaturer l'ADN. Celui que nous utiliserons aujourd'hui sera la **chaleur**.
   
-Les étapes qui suivent consisteront en une alternance entre la chauffe de la solution et la mesure de sa Densité Optique à 260 nm (cuvettes en quartz pour UV car le plastique absorbe l'UV). La première mesure se fair à température ambiante car l'ADN est encore sous forme de double brins non dénaturés. La solution d'ADN doit cependant avoir une DO unitiale située entre 0.2 et 0.3 (0.221 dans notre cas). La solution fut ensuite placée sur plaque chauffante et sa desité optique fut mesurée tous les 5°C jusque 100°C. 
+Les étapes qui suivent consisteront en une alternance entre la chauffe de la solution et la mesure de sa Densité Optique à 260 nm (cuvettes en quartz pour UV car le plastique absorbe l'UV). La première mesure se fair à température ambiante car l'ADN est encore sous forme de double brins non dénaturés. La solution d'ADN doit cependant avoir une DO initiale située entre 0.2 et 0.3 (0.221 dans notre cas). La solution fut ensuite placée sur plaque chauffante et sa densité optique fut mesurée tous les 5°C jusque 100°C. 
   
 ![Figure 7: Station de traitement de données de spectrométrie](../Images/Spectro-A2.jpg)
   

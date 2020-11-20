@@ -43,7 +43,7 @@ Qu'elles soient transportrices, hormonales, structurales, co-factrices, signalé
 Les boucles inter-domaines portent souvent l'activité de la protéine!
   
 * **La structure quaternaire**: association dans l'espace tridimentionnel des différentes chaines polypeptidiques. Ce niveau de structuration n'est stabilisé que par des liens de faible énergie (voir structure tertiaire), MAIS il est rigidifié par liens disulfure S-S covalents (en dehors du milieu réducteur de la cellule). Ce niveau d'organisation apporte deux "avantages" majeurs:
-  + **Présence de structures particulières:** cavités centrales (hémoglobine). Ces structures ont une forte relation stuture-fonction et servent souvent à clusteriser un élément.
+  + **Présence de structures particulières:** cavités centrales (hémoglobine). Ces structures ont une forte relation structure-fonction et servent souvent à clusteriser un élément.
   + **Phénomène de coopérativité:** les sous-unités interagissent entre elles de telle sorte que la modification conformationnel de l'une d'entre elles engendre l'augmentation de l'efficacité des autres sous-unités. Si une protéine a une structure quaternaire (plus d'une sous-unité) et présente des propriétés de coopérativité, elle est dite **allostérique**.
   
 #### Dénaturation des protéines

@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 #### Qu'est-ce qu'un sucre?
 Les glucides (carbohydrates, sucres, -oses, hydrates de carbone), sont une classe de macromolécules dont la formule chimique correspond à ce modèle: Cn(H2O)p. 
 Constituants essentiels à la survie des êtres vivants, ils accomplissent des fonctions allant de la structuration cellulaire à la mise en réserve.
-Ce sont des constituants essentiels des êtres vivants et de leur mode de nutrition. Cependant, ils ne remplissent jamais un rôle informateur. Les monomères constituant l'unité de base des glucides sont les monosaccharides.
+Ce sont des constituants essentiels des êtres vivants et de leur mode de nutrition. Cependant, ils ne remplissent jamais un rôle informationnel. Les monomères constituant l'unité de base des glucides sont les monosaccharides.
   
 #### Les monosaccharides
 Les sucres sont donc des poly-alcools dont les unités fonctionnelles sont les groupements carbonyles et hydroxyles. Si le carbonyle est terminale, on parlera d'**aldoses**. Si par contre il est intégré à l'intérieur de la chaîne carbonée, on parlera de **cétones**. 
@@ -38,31 +38,91 @@ L’interaction entre deux monosaccharides est réalisable au moyen d’un lien 
 #### Isomérisation de De Bryun - Von Ekenstein
 Cétose <---> Aldose à pH 7.
   
-Aussi, les disaccharides (maltose, saccharose) et les polysaccharides (glycogène, amidon) sont hydrolysés en milieu acide. Les monosaccharides (fructose, glucose) ainsi libérés sont ensuite transformés en fufural (voir point ci dessus).
+Aussi, les disaccharides (maltose, saccharose) et les polysaccharides (glycogène, amidon) sont hydrolysés en milieu acide. Les monosaccharides (fructose, glucose) ainsi libérés sont ensuite transformés en furfural (voir point ci dessus).
   
 #### Les polysaccharides
 Constitués de longues chaînes récurrentes ou non de monomères, ils remplissent des fonctions de réserve (amidon) ou de structure (cellulose).
   
 ### But
-Le but premier est de mettre en évidence les différences entre les carbohydrates préparés. Les test de Fehling et de Tollens permettent de différencier les aldoses des cétoses, et la digestion du glucose permettra de comprendre le métabolisme du glucose par ces fungi procaryotes en milieu anaérobique, ce qui ultimement nous permettra de trouver le rendement de cette fermentation alcoolique.
+Le but premier est de mettre en évidence les différences entre les carbohydrates préparés. Les test de Fehling et de Tollens permettent de différencier les aldoses des cétoses, et la digestion du glucose permettra de comprendre le métabolisme du glucose par ces fungi procaryotes en milieu anaérobique, ce qui, ultimement, nous permettra de trouver le rendement de cette fermentation alcoolique.
   
 ### Matériel
   
 * Liqueur de Fehling
 * Réactif de Tollens
+* Solutions de fructose(5%), glucose(5%), amidon(5%), surcose(5%)
+* Suspension de levure
   
 ### Méthodes
+#### Préparations des solutions.
 
-  
+* **Liqeur de Fehling:** en deux soltuions déjà préparées
+  + **Solution A:** Il a fallu peser 3.47g de CuSO4.5H2O et y ajouter 3 gouttes d'H2SO4 afin d'acidifier le cuivre. On complète avec 50ml d'eau distillée.
+  + **Solution B:** Dissolution de 17.3g de tartrate sodico-potassique et de 5g de NaOH en pastille dans de l'eau distillée. Le volume de la solution est amené à 50ml.
+* **Réactif de Tollens:** Préparation d'une solution de 2ml d’AgNO3(5%) à laquelle on ajoute 1ml de NaOH(10%) pour précipiter l'Ag2O. On ajoute ensuite par petites quantitées(0.5ml) de l'ammoniaque jusqu'à dissolution dudit précipité. On complète la solution avec 10ml d'eau distillée.
+* **Solutions de sucre:** 
+  + **Glucose(5%):** 0.5g de glucose dans 10ml d'eau distillée.
+  + **Amidon(5%):** 0.5g de amidon dans 10ml d'eau distillée.
+  + **Fructose(5%):** 0.5g de fructose dans 10ml d'eau distillée.
+  + **Sucrose(5%):** 0.5g de sucrose dans 10ml d'eau distillée.
+  + **Sucose(5%) acidifié:** Séparation de la solution de sucrose(5%) et ajout de 4 gouttes d'HCl concentré.
+* **Solution de glucose 20mg/ml:** 4g de glucose dans 20ml d'eau distillée.
+* **Solution de glucose 40mg/ml:** 8g de glucose dans 20ml d'eau distillée.
+* **Solution de NaOH 3M** 
+* **Solution de TCA(20%):** Déjà préparée.
+
+#### Préparation des levures
+
+Il faut peser 4g de levures mises à dispositions. On les mets dans un tube à centrifuger et on les suspends dans 40ml d'eau. On les fait centrifuger 5 minutes pour ensuite séparer le culot du surnageant. On réitère la supsension et la centrifugation une seconde fois. Encore une fois, on se débarrasse du surnageant et on reprend le culot dans 5ml d'eau distillée.
+
+#### Mise en évidence des carbohydrates.
+##### **Test de Fehling**
+
+L'expérience consite à ajouter 1ml des soltuions de glucose(5%), fructose(5%), amidon(5%), sucrose (5%) et sucrose(5%) acidifié dans des 5 tubes à essais différents. Dans chancun de ces tubes à essais, auront été mis au préalable 1ml  de la solution A et 1ml de la solution B. Afin de catalyser la réaction, les tubes sont placés dans un bain-marie à 100°C durant 5 minutes.
+
+##### **Test de Tollens**
+
+On répartit, dans 4 tubes à essais, 1ml du réactif de Tollens. On verse ensuite dans les tubes 1ml des solutions de fruvtose(5%), glucose(5%), amidon(5%) et sucrose(5%). La solution de sucrose(5%) acidifiée ne sera pas utilisée.
+
+#### Digestion du glucose par les levures
+
+Pour cette partie-ci, il a fallut utiliser 3 fioles coniques avec un compratiment central.Dans chaque fiole, nous avons ajouté 0.6ml de la solution de NaOH(3M) dans le compartiment central et 1.5ml de la suspension de levure dans le compartiment extérieur.Nous avons également versés, de manières séparée, dans le compartiment extérieur des 3 fioles les solutions suivantes:
+
+* 2.5ml d'H2O -> Fiole n°1
+* 2.5ml de ma solution de glucose (20mg/ml) -> Fiole n°2
+* 2.5ml de ma solution de glucose (40mg/ml) -> Fiole n°3
+
+Chaque fiole a ensuite été fermée avec 2 feuilles de parafilm pour hermétiser le système.Les fioles sont ensuite incubées durant 45 minutes à 25°C. Au terme de ces 45 minutes, on interrompt le processus de fermentation en injectant à travers le parafilm 1ml de TCA 20% dans le compartiment extérieur de chaque fiole.
+On titrera en suite le le CO2 produit par la fementation. On va donc ajouter dans des béchers séparés 2ml de BaCl2 1M, 1ml H2O, 3 gouttes de phénophtaléine, et 0.5ml du NaOH de chaque fiole. Le titrant est de l'acide chlorhydrique 0.3M. Un titrage test est bien évidemment effectué au préalable avec 0.5ml de NaOH 3M frais.
+
 ### Résultats
+#### Résultats de la mise en évidence des carbohydrates
 
-  
+![Test de Fehling](../Images/Résultats-Fehling.jpg)
+Dans l'ordre: fructose, glucose, amidon, sucrose et sucrose acidifié. On constate facilement que seuls le fructose, le glucose et le sucrose avec acidifié ont réagi. De fait, les deux premiers produits ne sont constitués que monosaccharides. La liqueur de Fehling réagit avec les groupements aldéhydes. L'ajout d'HCl au sucrose dans le dernier tube permet à la réaction de se faire. En effet, le sucrose est un polysaccharide mais la présence d'un acide fort va cliver les liens osidiques entre les monomères, laissant ces derniers réagir indépendamment. N'ayant pas d'acide fort présent dans les deuxièmes et troisèmes tubes, Les polysaccharides que sont l'amidon et le sucrose n'ont pas pu réagir.
+
+![Test de Tollens](../Images/Résultats-Tollens.jpg)
+Un dépot d'argent se forme dans les tubes contenatn du fructose et du glucose. La raison de cette précipitation est identique à celle du teste de Fehling, à savoir que seuls les monomères réagissent.
+
+#### Résultats du titrage
+???????? Attendre les résultats. Je sais pas si on les a déjà.
+
 ### Discussion
+#### Mise en évidence de carbohydrates
 
-  
+
+
+#### Digestion de l'amidon par les levures
+
+
+
 ### Conclusion
+#### Mise en évidence des carbohydrates
+
+
+
+#### Digestion de l'amidon par les levures
+
 
 
 ### Bibliographie
-
-
