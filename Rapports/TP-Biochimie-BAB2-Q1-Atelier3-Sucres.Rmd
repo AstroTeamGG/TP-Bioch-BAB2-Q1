@@ -44,7 +44,11 @@ Aussi, les disaccharides (maltose, saccharose) et les polysaccharides (glycogèn
 Constitués de longues chaînes récurrentes ou non de monomères, ils remplissent des fonctions de réserve (amidon) ou de structure (cellulose).
   
 ### But
+<<<<<<< HEAD
 Le but premier est de mettre en évidence les différences entre les carbohydrates préparés. Les test de Fehling et de Tollens permettent de différencier les aldoses des cétoses, et la digestion du glucose permettra de comprendre le métabolisme du glucose par ces fungi procaryotes en milieu anaérobique, ce qui, ultimement, nous permettra de trouver le rendement de cette fermentation alcoolique.
+=======
+*Le but premier est de mettre en évidence les différences entre les carbohydrates préparés. Les test de Fehling et de Tollens permettent de différencier les aldoses des cétoses, et la digestion du glucose permettra de comprendre le métabolisme du glucose par ces fungi procaryotes en milieu anaérobique, ce qui ultimement nous permettra de trouver le rendement de cette fermentation alcoolique.*
+>>>>>>> 758cad491435df89fc39bc4ff6e773d360d93af8
   
 ### Matériel
   
