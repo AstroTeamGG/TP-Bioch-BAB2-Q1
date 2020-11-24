@@ -44,11 +44,7 @@ Aussi, les disaccharides (maltose, saccharose) et les polysaccharides (glycogèn
 Constitués de longues chaînes récurrentes ou non de monomères, ils remplissent des fonctions de réserve (amidon) ou de structure (cellulose).
   
 ### But
-<<<<<<< HEAD
 Le but premier est de mettre en évidence les différences entre les carbohydrates préparés. Les test de Fehling et de Tollens permettent de différencier les aldoses des cétoses, et la digestion du glucose permettra de comprendre le métabolisme du glucose par ces fungi procaryotes en milieu anaérobique, ce qui, ultimement, nous permettra de trouver le rendement de cette fermentation alcoolique.
-=======
-*Le but premier est de mettre en évidence les différences entre les carbohydrates préparés. Les test de Fehling et de Tollens permettent de différencier les aldoses des cétoses, et la digestion du glucose permettra de comprendre le métabolisme du glucose par ces fungi procaryotes en milieu anaérobique, ce qui ultimement nous permettra de trouver le rendement de cette fermentation alcoolique.*
->>>>>>> 758cad491435df89fc39bc4ff6e773d360d93af8
   
 ### Matériel
   
@@ -61,9 +57,9 @@ Le but premier est de mettre en évidence les différences entre les carbohydrat
 #### Préparations des solutions.
 
 * **Liqeur de Fehling:** en deux soltuions déjà préparées
-  + **Solution A:** Il a fallu peser 3.47g de CuSO4.5H2O et y ajouter 3 gouttes d'H2SO4 afin d'acidifier le cuivre. On complète avec 50ml d'eau distillée.
+  + **Solution A:** Il a fallu peser 3.47g de CuSO<sub>4</sub>.5H<sub>2</sub>O et y ajouter 3 gouttes d'H<sub>2</sub>SO<sub>4</sub> afin d'acidifier le cuivre. On complète avec 50ml d'eau distillée.
   + **Solution B:** Dissolution de 17.3g de tartrate sodico-potassique et de 5g de NaOH en pastille dans de l'eau distillée. Le volume de la solution est amené à 50ml.
-* **Réactif de Tollens:** Préparation d'une solution de 2ml d’AgNO3(5%) à laquelle on ajoute 1ml de NaOH(10%) pour précipiter l'Ag2O. On ajoute ensuite par petites quantitées(0.5ml) de l'ammoniaque jusqu'à dissolution dudit précipité. On complète la solution avec 10ml d'eau distillée.
+* **Réactif de Tollens:** Préparation d'une solution de 2ml d’AgNO<sub>3</sub>(5%) à laquelle on ajoute 1ml de NaOH(10%) pour précipiter l'Ag<sub>2</sub>O. On ajoute ensuite par petites quantitées(0.5ml) de l'ammoniaque jusqu'à dissolution dudit précipité. On complète la solution avec 10ml d'eau distillée.
 * **Solutions de sucre:** 
   + **Glucose(5%):** 0.5g de glucose dans 10ml d'eau distillée.
   + **Amidon(5%):** 0.5g de amidon dans 10ml d'eau distillée.
@@ -92,41 +88,77 @@ On répartit, dans 4 tubes à essais, 1ml du réactif de Tollens. On verse ensui
 
 Pour cette partie-ci, il a fallut utiliser 3 fioles coniques avec un compratiment central.Dans chaque fiole, nous avons ajouté 0.6ml de la solution de NaOH(3M) dans le compartiment central et 1.5ml de la suspension de levure dans le compartiment extérieur.Nous avons également versés, de manières séparée, dans le compartiment extérieur des 3 fioles les solutions suivantes:
 
-* 2.5ml d'H2O -> Fiole n°1
+* 2.5ml d'H<sub>2</sub>O -> Fiole n°1
 * 2.5ml de ma solution de glucose (20mg/ml) -> Fiole n°2
 * 2.5ml de ma solution de glucose (40mg/ml) -> Fiole n°3
 
 Chaque fiole a ensuite été fermée avec 2 feuilles de parafilm pour hermétiser le système.Les fioles sont ensuite incubées durant 45 minutes à 25°C. Au terme de ces 45 minutes, on interrompt le processus de fermentation en injectant à travers le parafilm 1ml de TCA 20% dans le compartiment extérieur de chaque fiole.
-On titrera en suite le le CO2 produit par la fementation. On va donc ajouter dans des béchers séparés 2ml de BaCl2 1M, 1ml H2O, 3 gouttes de phénophtaléine, et 0.5ml du NaOH de chaque fiole. Le titrant est de l'acide chlorhydrique 0.3M. Un titrage test est bien évidemment effectué au préalable avec 0.5ml de NaOH 3M frais.
+On titrera en suite le le CO2 produit par la fementation. On va donc ajouter dans des béchers séparés 2ml de BaCl<sub>2</sub> 1M, 1ml H<sub>2</sub>O, 3 gouttes de phénophtaléine, et 0.5ml du NaOH de chaque fiole. Le titrant est de l'acide chlorhydrique 0.3M. Un titrage test est bien évidemment effectué au préalable avec 0.5ml de NaOH 3M frais.
 
 ### Résultats
 #### Résultats de la mise en évidence des carbohydrates
 
 ![Test de Fehling](../Images/Résultats-Fehling.jpg)
-Dans l'ordre: fructose, glucose, amidon, sucrose et sucrose acidifié. On constate facilement que seuls le fructose, le glucose et le sucrose avec acidifié ont réagi. De fait, les deux premiers produits ne sont constitués que monosaccharides. La liqueur de Fehling réagit avec les groupements aldéhydes. L'ajout d'HCl au sucrose dans le dernier tube permet à la réaction de se faire. En effet, le sucrose est un polysaccharide mais la présence d'un acide fort va cliver les liens osidiques entre les monomères, laissant ces derniers réagir indépendamment. N'ayant pas d'acide fort présent dans les deuxièmes et troisèmes tubes, Les polysaccharides que sont l'amidon et le sucrose n'ont pas pu réagir.
+
+Dans l'ordre: fructose, glucose, amidon, sucrose et sucrose acidifié. On constate facilement que seuls le fructose, le glucose et le sucrose acidifié ont réagi.
 
 ![Test de Tollens](../Images/Résultats-Tollens.jpg)
+
 Un dépot d'argent se forme dans les tubes contenatn du fructose et du glucose. La raison de cette précipitation est identique à celle du teste de Fehling, à savoir que seuls les monomères réagissent.
 
 #### Résultats du titrage
-???????? Attendre les résultats. Je sais pas si on les a déjà.
+
+Les résultats des titrages sont les suivants:
+
+* Fiole 1: 5.7ml
+* Fiole 2: 3.5ml
+* Fiole 3: 1.6ml
 
 ### Discussion
 #### Mise en évidence de carbohydrates
+##### Test de Fehling
+Les deux premiers produits ne sont constitués que monosaccharides. La liqueur de Fehling réagit donc avec les groupements aldéhydes. L'ajout d'HCl au sucrose dans le dernier tube permet à la réaction de se faire. En effet, le sucrose est un polysaccharide mais la présence d'un acide fort va cliver les liens osidiques entre les monomères, laissant ces derniers réagir indépendamment. N'ayant pas d'acide fort présent dans les deuxièmes et troisèmes tubes, Les polysaccharides que sont l'amidon et le sucrose n'ont pas pu réagir.
 
-
+##### Test de Tollens
+La raison de cette précipitation est identique à celle du teste de Fehling, à savoir que seuls les monomères réagissent. Bien évidemment, la réaction en elle-même est différente.
 
 #### Digestion de l'amidon par les levures
+##### Calcul du rendement
 
+Les équations de réactions simplifiées:
+
+* C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> --> pyruvate + 2CO<sub>2</sub>
+* CO<sub>2</sub> +2NaOH --< Na<sub>2</sub>CO<sub>3</sub> + H<sub>2</sub>O
+* HCl + NaOH --> NaCl + H<sub>2</sub>O
+
+**Fiole 1:** On ne peut calculer aucun rendement pour cette fiole car elle ne contient simplement pas de glucose.
+
+**Fiole 2:** On a rajouté 3.5ml de HCl ce qui correspond à 0.00105 moles de NaOH.
+On peut donc calculer la quantitée de NaOH utilisée en soustrayant celle restante à celle d'origine:
+
+* 0.00171 - 0.00105 = 0.00066 moles de NaOH utilisées
+
+Or il y à un rapport 4 entre la quantité de NaOH utilisée et la quantité de gulcose utilisée:
+
+* 0.00066/4 = 0.000165 moles de glucose utilisées
+
+Le rendement final est donné par le rapport entre la quantité de glucose utilisée et la quantitée de glucose initiale:
+
+* Rendement: (0.000165/0.000278) x 100 = **59.35%**
+
+**Fiole 3:** Le raisonnement est identique à celui de la fiole n°2. La seule variable qui change est la concentration de la solution de glucose utilisée.
+
+* Quantité de NaOH utilisée: 0.00171 - 0.00048 = 0.00123 moles
+* Quantité de glucose utilisée: 0.00123 / 4 = 0.0003075 moles
+* Rendement: (0.0003075  / 0.000555) x 100 = **55.40%**
 
 
 ### Conclusion
 #### Mise en évidence des carbohydrates
-
-
+Durant les test de Fehling et de Tolens nous avons pu mettre évidence les carbohydrates avec succès. Cependant, il est à remarquer que ces tests ne sont efficaces que sur les monosaccharides.
 
 #### Digestion de l'amidon par les levures
 
-
+Nous avons démontrer avec succès la consommation de glucose par les levures en milieu anaérobie ainsi que calculer le rendement de cette fermentation en fonction de la quantitée de glucose.
 
 ### Bibliographie
