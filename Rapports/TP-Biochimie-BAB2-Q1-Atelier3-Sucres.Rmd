@@ -103,7 +103,7 @@ On titrera en suite le le CO2 produit par la fementation. On va donc ajouter dan
 Dans l'ordre: fructose, glucose, amidon, sucrose et sucrose acidifié. On constate facilement que seuls le fructose, le glucose et le sucrose acidifié ont réagi.
 
 ![Test de Tollens](../Images/Résultats-Tollens.jpg)
-
+:
 Un dépot d'argent se forme dans les tubes contenatn du fructose et du glucose. La raison de cette précipitation est identique à celle du teste de Fehling, à savoir que seuls les monomères réagissent.
 
 #### Résultats du titrage

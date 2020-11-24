@@ -16,16 +16,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Introduction
 #### Qu’est-ce qu’un lipide?
-<<<<<<< HEAD
-Les lipides sont des molécules amphiphiles à caractère hydrophobe prononcé. À température ambiante, les lipides peuvent être à l'état solide (cires) ou liquide (huiles). Les stéroïdes et le phosphatidylinositol (glycérophospholipides) sont les seuls lipides à porter un rôle informationnel.
-=======
 Les lipides sont des molécules amphiphiles à caractère hydrophobe prononcé. A température ambiante, les lipides peuvent être à l'état solide(cires) ou liquide (huiles). Ceux-ci contituent la matière grasses des êtres vivants et ils sont l'un des constituants majeurs des membranes organiques. On peut les classer en trois groupes : 
 * Les Phospholipides : sont des lipides de structure et il y en existe 2 groupes: les glycérophospholipides et les sphingolopides.
 * Les Glycolipides: leur rôle est de stabiliser la membrane cellulaire et il y en existe 2 groupe: les sphigolipides et les glactolipides.
 * Les Stéroïdes: n'ont rien avoir avec la struture des acides gras comme les deux autres. Leur molécule est constitué de cycle et jouent un rôle d'hormones. C'est pourquoi, ils n'interviennent pas au niveau de la structure des mebranes.
 Les stéroïdes et le phosphatidylinositol (glycérophospholipides) sont les seuls lipides à porter un rôle informationnel.
->>>>>>> 758cad491435df89fc39bc4ff6e773d360d93af8
-
+  
 <!---
 D’un point de vue biologique :
 * 20% du poids corporel.
@@ -68,11 +64,6 @@ Une fois la première étape terminée, on a mis sous hotte,les deux extraits. L
 ![Figure 2: Elimination du solvant sur plaque éléctrique](../Images/Plaque électrique.jpg)
 
 ##### Précipitation de phospholipides
-<<<<<<< HEAD
-Après refroidissement, les résidus de l'évaporation furent dissout danss 2 mL d'éther [6]. Pour la cervelle cependant, nous avons dû OCTUPLER les quantités de solvant (16 mL d'éther, 40 gouttes de CdCl2 et 48 mL d'acétone) car apparemment, l'échantillon était saturé en graisses. Les produits de dissolution du lard furent ensuite versés dans un flacon falcon avec 5 gouttes de CdCl2 et 6 mL d'acétone (cervelle avec quantités octuplées), puis centrifugés.
-  
-Etant donné que les sels de cadmium phospholipides sont insolubles dans une solution d'acétone dans une solution d’acétone et d’éther, nous devrions donc nous attendre à apercevoir un précipité.
-=======
 Après refroidissement, les résidus de l'évaporation furent dissous dans 2 mL d'éther [6]. Pour la cervelle cependant, nous avons dû OCTUPLER les quantités de solvant (16 mL d'éther, 40 gouttes de CdCl2 et 48 mL d'acétone) car apparemment, l'échantillon était saturé en graisses. Les produits de dissolution du lard furent ensuite versés dans un  tube à centrifuger avec 5 gouttes de CdCl2 [4] et 6 mL d'acétone [7](cervelle avec quantités octuplées), puis les deux tubes sont passés à la centrifugeuse.
 
 ![Figure 3: Tube à centrifuge de cervelle](../Images/Tube-centrifuge-cervelle.jpg)
@@ -81,20 +72,14 @@ Après refroidissement, les résidus de l'évaporation furent dissous dans 2 mL 
 
 Nous pouvont voir qu'il y a une différence de volume entre la cervelle et le lard. N'oublions pas que nous avons dû octupler les doses de solvants.
 Etant donné que les sels de cadmium phospholipides sont insolubles dans une solution d'acétone et d’éther, nous devrions pouvoir apercevoir un précipité dans le fond du tube.
->>>>>>> 758cad491435df89fc39bc4ff6e773d360d93af8
   
 ##### Saponification des graisses neutres
 Dans le surnageant, il ne reste que les graisses neutres et le cholestérol. Il a fallu décanter ce surnageant dans un bécher attitré au lard ou à la cervelle. Une solution de KOH alcool fut ajoutée et le tout fut mélangé. 
-Le surnageant de cerveau faisait 38 mL, et le culot occupait jusqu'à 2 ml dans le flacon. Nous avons donc décider de quadrupler la quantité de KOH Alcool (24 mL)[3], même si en ratio ça aurait dû être 4,75 fois plus.
-
-<<<<<<< HEAD
-Le surnageant de cerveau faisait 38 mL, et le culot occupait jusqu'à 2 ml dans le flacon falcon. Nous avons donc décider de quadrupler la quantité de KOH Alcool (24 mL), même si en ratio, ça aurait dû être 4,75 fois plus. 
   
-Le potassium réagit avec le carboxyle, et le groupement OH va former le glycérol. Sous la hotte, nous l’avons évaporé, ce qui a provoqué la saponification des graisses neutres. Les acides gras ainsi libérés ont été présents sous forme de savons (sels de potassium).
-=======
+Le surnageant de cerveau faisait 38 mL, et le culot occupait jusqu'à 2 ml dans le flacon. Nous avons donc décider de quadrupler la quantité de KOH Alcool (24 mL)[3], même si en ratio ça aurait dû être 4,75 fois plus.
+  
 Ensuite,ce mélange fut placé sous hotte, chauffé et évaporé. Cette étape provoqua la saponification des graisses neutres. Suite à cette étape, il ne subsistait que le savon, masse informe au fond du bécher (sels de potassium).
 Le potassium va réagir avec le carboxyle, et le groupement hydroxyle va former le glycérol.  Les acides gras ainsi libérés ont été présents sous forme de savons (sels de potassium).
->>>>>>> 758cad491435df89fc39bc4ff6e773d360d93af8
   
 ##### Séparation des savons et du cholestérol
 Une fois le bécher,contenant la cervelle, refroidit. Nous avons dissout le savon(cervelle) à l’aide de 7ml d’alcool à 50%. Ensuite, nous avons transvasé le tout dans une ampoule à décanter avec ajout de  10ml d’éther de pétrole.
