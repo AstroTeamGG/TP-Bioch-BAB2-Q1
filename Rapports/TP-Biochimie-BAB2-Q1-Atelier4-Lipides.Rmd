@@ -1,13 +1,11 @@
 ---
 title: "TP Biochimie BAB2 Q1"
-author:
-- name: Guillaume Gégo
-- name: Raphaël Deroux
-- name: Emeline Derycke
+author: 
+  - name: "Guillaume Gégo"
+  - name: "Raphaël Deroux"
+  - name: "Emeline Derycke"
 date: "06/11/2020"
-output:
-  html_document: default
-  word_document: default
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
@@ -76,20 +74,12 @@ Nous pouvont voir qu'il y a une différence de volume entre la cervelle et le la
 Etant donné que les sels de cadmium phospholipides sont insolubles dans une solution d'acétone et d’éther, nous devrions pouvoir apercevoir un précipité dans le fond du tube.
   
 ##### Saponification des graisses neutres
-<<<<<<< HEAD
-Dans le surnageant, il ne restait que les graisses neutres et le cholestérol. Il a fallu décanter ce surnageant dans un bécher attitré au lard ou à la cervelle. Une solution de KOH alcool est ajoutée et le tout est mélangé. 
-Le surnageant de cerveau était de 38 mL, et le culot occupait jusqu'à 2 ml dans le flacon. Nous avons donc décider de quadrupler la quantité de KOH Alcool (24 mL)[3], même si en ratio ça aurait dû être 4,75 fois plus.
-
-Ensuite,ce mélange a été placé sous hotte, chauffé et évaporé. Cette étape a provoqué la saponification des graisses neutres. Suite à cette étape, il ne subsistait que le savon, masse informe au fond du bécher (sels de potassium).
-Le potassium a réagit avec le carboxyle, et le groupement hydroxyle a formé le glycérol.  Les acides gras ainsi libérés ont été présents sous forme de savons (sels de potassium).
-=======
 Dans le surnageant, il ne reste que les graisses neutres et le cholestérol. Il a fallu décanter ce surnageant dans un bécher attitré au lard ou à la cervelle. Une solution de KOH alcool fut ajoutée et le tout fut mélangé. 
   
 Le surnageant de cerveau faisait 38 mL, et le culot occupait jusqu'à 2 ml dans le flacon. Nous avons donc décider de quadrupler la quantité de KOH Alcool (24 mL)[3], même si en ratio ça aurait dû être 4,75 fois plus.
   
 Ensuite,ce mélange fut placé sous hotte, chauffé et évaporé. Cette étape provoqua la saponification des graisses neutres. Suite à cette étape, il ne subsistait que le savon, masse informe au fond du bécher (sels de potassium).
 Le potassium va réagir avec le carboxyle, et le groupement hydroxyle va former le glycérol.  Les acides gras ainsi libérés ont été présents sous forme de savons (sels de potassium).
->>>>>>> 9fd34922dc822bb4a569e90b1b25727dc0b00170
   
 ##### Séparation des savons et du cholestérol
 Une fois que le bécher "contenant la cervelle" a été refroidit. Nous avons dissout le savon(cervelle) à l’aide de 7ml d’alcool à 50%. Ensuite, nous avons transvasé le tout dans une ampoule à décanter avec ajout de  10ml d’éther de pétrole.
@@ -105,7 +95,7 @@ Une fois  que le bécher "contenant le lard" a été refroidit. Nous avons repri
 Ensuite, les 20ml, nous les avons mis dans deux tubes, de 10ml chacun. Dans l'un, nous avons ajouté petit à petit 10 gouttes de CaCl2 2M [5] , et 10 gouttes d’acide acétique dans l’autre. Les acides gras se sont précipités.
 Théoriquement, dans le CaCl2 (Ca++, 2 Cl- ), le calcium, de valence 2, va pouvoir accepter 2 têtes hydrophiles des triglycérides, tandis que l’acide acétique (CH3COO- , H+ ) ne va pouvoir se lier qu’à une tête hydrophile. Du coup, nous devrions observer, en quantités égales, deux fois plus de précipités dans la solution de chlorure de calcium.
 
-![Figure 6: Tube avec 10 gouttes de CaCl2 à gauchet et Tube avec 10 gouttes d'acide acétique](../Images/Précipitation-savons-calciques.jpg)
+![Figure 6: Tube avec 10 gouttes de CaCl2 à gauchet et Tube avec 10 gouttes d'acide acétique](../Images/Précipitation-savons-calciques.jpg)
 
 ### Résultats
 
