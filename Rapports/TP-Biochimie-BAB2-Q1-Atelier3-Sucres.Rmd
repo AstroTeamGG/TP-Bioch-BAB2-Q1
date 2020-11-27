@@ -5,11 +5,19 @@ author:
   - name: "Raphaël Deroux"
   - name: "Emeline Derycke"
 date: "05/11/2020"
-output: html_document
+output:
+  word_document: default
+  html_document: default
 ---
-
+***
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+SciViews::R
+library(dplyr)
+library(ggridges)
+library(knitr)
+# Excel import packages
+library(readxl)
 ```
 
 ## **Atelier 3:** Les sucres

@@ -6,15 +6,16 @@ author:
   - name: "Emeline Derycke"
 date: "04/11/2020"
 output:
-  html_document: default
   word_document: default
+  html_document: default
 ---
-
+***
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 SciViews::R
 library(dplyr)
 library(ggridges)
+library(knitr)
 # Excel import packages
 library(readxl)
 ```
@@ -152,5 +153,7 @@ Le pourcentage d' A+T est donc de 73.9%.
 Nous avons établi avec succès le pourcentage d'A+T (73.9%) et de C+G (26.1%) dans l'ADN contenu dans 10g de thymus de veau. 
 
 ### Bibliographie
-
-
+  
+* Colignon, L. (2020). Travaux pratiques de biochimie 2020-2021, protocole Moodle, diapositive 13.
+  
+* Gillan, D. (2018?). Biologie Générale fascicule 1 et 4, Syllabus didpensé par l'Umons, pages diverses.

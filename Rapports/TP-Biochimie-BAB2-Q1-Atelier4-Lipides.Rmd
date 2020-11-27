@@ -5,16 +5,25 @@ author:
   - name: "Raphaël Deroux"
   - name: "Emeline Derycke"
 date: "06/11/2020"
-output: html_document
+output:
+  word_document: default
+  html_document: default
 ---
-
+***
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+SciViews::R
+library(dplyr)
+library(ggridges)
+library(knitr)
+# Excel import packages
+library(readxl)
 ```
 
 ## **Atelier 4:** Les Lipides
 
 ### Introduction
+  
 #### Qu’est-ce qu’un lipide?
 Les lipides sont des molécules amphiphiles à caractère hydrophobe prononcé. A température ambiante, les lipides peuvent être à l'état solide(cires) ou liquide (huiles). Ceux-ci contituent la matière grasses des êtres vivants et ils sont l'un des constituants majeurs des membranes organiques. On peut les classer en trois groupes : 
 * Les Phospholipides : sont des lipides de structure et il y en existe 2 groupes: les glycérophospholipides et les sphingolopides.
