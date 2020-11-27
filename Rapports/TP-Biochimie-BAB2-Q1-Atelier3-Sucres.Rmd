@@ -6,8 +6,8 @@ author:
   - name: "Emeline Derycke"
 date: "05/11/2020"
 output:
-  word_document: default
   html_document: default
+  word_document: default
 ---
 ***
 ```{r setup, include=FALSE}
@@ -51,28 +51,58 @@ Aussi, les disaccharides (maltose, saccharose) et les polysaccharides (glycogèn
 #### Les polysaccharides
 Constitués de longues chaînes récurrentes ou non de monomères, ils remplissent des fonctions de réserve (amidon) ou de structure (cellulose).
 
-#### Fonctionnement du test de Fehling
+#### Fonctionnement général des test de mise en évidence des aldéhydes
 
-Le test de Fehling est une méthode qui permet de révéler la présence de glucides. La liqueur de Fehling réagit avec les fonctions aldehydes dans une réaction d'oxydo-réduction, en jouant le rôle de l'oxydant.
-
-Lors de la réaction, l'ion Cu<sup>2+</sup> oxyde la fonction aldéhyde (La fonction cétone, elle ne réagit pas car son étage d'oxydation est bien supérieur). L'aldéhyde, quant à lui, réduit l'ion et entraine par la même sa précipitation. C'est cette précipitation qui déterminera si le test est positif ou non. De fait, le Cu<sub>2</sub>O possède une couleur rouge très identifiable.
-
-Réaction: R-CHO + 2Cu(OH)<sub>2</sub> → RCOOH + Cu<sub>2</sub>O(s) + 2H<sub>2</sub>O 
-
+Si on prend un aldose, sa fonction aldéhyde est terminale. L'électronégativité de l'oxygène étant supérieure à celle du carbone, l'oxygène attire les électrons de la double liaison. Le carbone, quant à lui, attire l'électron de l'hydrogène aldéhydique.
+  
+En milieu basique, la concentration en [OH-] est importante. Cette basicité va pousser le H aldéhydique, déjà appauvri en e-, à se détacher, transformant le carbone en carbanion instable.
+  
+C'est à ce moment là que le réactif (Tollens ou Fehling) va jouer son rôle. En effet, il va profiter de cette situation pour venir se faire réduire par le carbanion et oxyder ainsi l'aldéhyde, qui se transformera en groupement carboxyle dont le H est substitué par un ion (Ag2+ pour Tollens et Cu2+ pour Fehling). Vu qu'on est en milieu basique, le carboxyle va faire précipiter l'ion, indiquant ainsi clairement la présence d'aldéhydes libres dans l'échantillon. 
+  
+La fonction cétone, moins réductrice, ne réagit pas aussi bien car son étage d'oxydation est bien supérieur.
+  
+##### Le test de Fehling
+La liqueur de Fehling réagit avec les fonctions aldehydes dans une réaction d'oxydo-réduction, en jouant le rôle de l'oxydant.
+  
+Lors de la réaction de Fehling, l'ion Cu<sup>2+</sup> oxyde donc la fonction aldéhyde. L'aldéhyde, quant à lui, réduit donc le réactif de Fehling et entraine par la même occasion la précipitation de cet ion. C'est cette précipitation qui déterminera si le test est positif ou non. De fait, le Cu<sub>2</sub>O possède une couleur rouge-brunâtre très identifiable.
+  
+**Réaction:** R-CHO + 2Cu(OH)<sub>2</sub> → RCOOH + Cu<sub>2</sub>O(s) + 2H<sub>2</sub>O 
+  
 La présence des des ions tartrates est également très importante car elle empêche la formation d'hydroxyde cuivrique. Concrètement, cela signifie que le cuivre restera sous forme d'un complexe d'une couleur bleue soluble alors que l'hydroxyde cuivrique, lui, est d'une couleur bleue insoluble. Par après, et à température ambiante, il y aurait naturellement formation d'oxyde de cuivre(II), complexe de couleur noir insoluble.
-
+  
 #### Fonctionnement du test de Tollens
+Le réactif de Tollens réagit avec les fonctions aldéhydes dans une réaction d'oxydo-réduction, en jouant le rôle de l'oxydant.
+  
+Le réactif est une solution comprenant du nitrate d'argent. C'est donc cet Ag<sup>2+</sup> qui oxyde la fonction aldéhyde (comme le Cu 2+ le fait dans Fehling). L'aldéhyde, quant à lui, réduit l'ion et entraine par la même sa précipitation.
 
-Le test de Tollens est une méthode qui permet de révéler la présence de glucides. Le réactif de Tollens réagit avec des fonctions aldéhydes dans une réaction d'oxydo-réduction, en jouant le rôle de l'oxydant.
-
-Le réactif est une solution comprenant du nitrate d'argent. C'est cet Ag<sup>2+</sup> qui oxyde la fonction aldéhyde (La fonction cétone, elle ne réagit pas car son étage d'oxydation est bien supérieur). L'aldéhyde, quant à lui, réduit l'ion et entraine par la même sa précipitation.
-
-Réaction: R-CHO + 2Ag(NH<sub>3</sub>)<sub>2</sub>OH + NaOH → RCOONa + 2Ag + 2H<sub>2</sub>O + 4NH<sub>3</sub> 
-
+**Réaction:** R-CHO + 2Ag(NH<sub>3</sub>)<sub>2</sub>OH + NaOH → RCOONa + 2Ag + 2H<sub>2</sub>O + 4NH<sub>3</sub> 
+  
 Il se forme alors un dépot d'argent sur les parois en donnant ainsi un effet miroir.
+  
+#### Les levures
+La levure est un Fungi eucaryote de l'ordre des ascomycètes qui est capable de provoquer la fermentation du glucose en milieu anaérobie par la réaction suivante:
+  
+C6 H12 O6 --> 2CO2 + 2C2 H5 OH
+  
+Pour prouver que la levure digère bien le glucose, on peut utiliser le fait qu'elle produise du CO2 et le titrer en présence de NaOH. Si du CO2 a été produit, il y aura moins de NaOH que la quantité que nous avons initialement placée. Le NaOH fait une réaction acide-base classique avec le CO2.
+  
+C'est une réaction acide base parce qu'en milieu aqueux, le CO2 est présent sous forme de H2 CO3. Le NaOH étant une base forte, il se dissocie en milieu aqueux en Na+ et OH-. La réaction suivante se déroule alors:
+  
+**Réaction simplifiée:** CO2 + 2 NaOH → Na2CO3 + H2O 
+  
+(H2CO3 + 2 (Na+ + OH-) --> Na2 CO3 + 2 H2O)
+  
+Il va y avoir un échange de proton entre H2 CO3 et le OH-, ce qui va laisser l'ion spectateur Na+ se fixer sur le HCO3-. Donc pour chaque mole de CO2 produit, il y aura une quantité équimolaire de NaOH (OH-) qui sera consommée. On va donc titrer la quantité de NaOH restante avec du HCl comme titrant. De manière théorique, le rendement peut être calculé comme suit:
+  
+**Rendement** = ((n glucose consommé) /(n glucose départ)) x 100
+  
+**avec:**
+* n glucose départ = m glucose départ (g) / M glucose (g/mol) 
+* 
 
+
+  
 ### But
-
 L'objectif de cet atelier est de mettre en évidence les caractéristiques de différents carbohydrates. Une différence moléculaire pourra être démontrée grâce aux tests de Fehling et de Tollens entre les aldoses et les cétoses. L'autre point d'intêret sera de démontrer et comprendre la digestion de glucose par les levures ainsi que le rendement de cette fermentation.
   
 ### Matériel
@@ -99,65 +129,75 @@ L'objectif de cet atelier est de mettre en évidence les caractéristiques de di
 * **Solution de glucose 40mg/ml:** 8g de glucose dans 20ml d'eau distillée.
 * **Solution de NaOH 3M** 
 * **Solution de TCA(20%):** Déjà préparée.
-
+  
 #### Préparation des levures
-
-Il faut peser 4g de levures mises à dispositions. On les mets dans un tube à centrifuger et on les suspends dans 40ml d'eau. On les fait centrifuger 5 minutes pour ensuite séparer le culot du surnageant. On réitère la supsension et la centrifugation une seconde fois. Encore une fois, on se débarrasse du surnageant et on reprend le culot dans 5ml d'eau distillée.
-
+Nous avons commencé par peser 4g de levures, qui furent ensuite disposées dans un tube à centrifuger avec 40ml d'eau.Après centrifigation pendant 5 minutes, le culot fut récupéré pour réitérer l'opération après l'addition de 5 mL d'eau distilée.
+  
 #### Mise en évidence des carbohydrates.
-##### **Test de Fehling**
-
-L'expérience consite à ajouter 1ml des soltuions de glucose(5%), fructose(5%), amidon(5%), sucrose (5%) et sucrose(5%) acidifié dans des 5 tubes à essais différents. Dans chancun de ces tubes à essais, auront été mis au préalable 1ml  de la solution A et 1ml de la solution B. Afin de catalyser la réaction, les tubes sont placés dans un bain-marie à 100°C durant 5 minutes.
-
+  
+##### Test de Fehling
+L'expérience consitait en l'ajout d'1ml de solutions de glucose(5%),de fructose(5%), d'amidon(5%),de sucrose (5%) et de sucrose(5%) acidifié (4 gouttes d'HCl concentré) dans 5 tubes à essais différents. 1ml  de la solution A et 1ml de la solution B ont été versés au préalable dans chancun de ces tubes à essais. Afin de catalyser la réaction, les tubes sont placés dans un bain-marie à 100°C durant 5 minutes.
+  
 ##### **Test de Tollens**
-
-On répartit, dans 4 tubes à essais, 1ml du réactif de Tollens. On verse ensuite dans les tubes 1ml des solutions de fruvtose(5%), glucose(5%), amidon(5%) et sucrose(5%). La solution de sucrose(5%) acidifiée ne sera pas utilisée.
-
+Nous avons commencé par répartir 1ml du réactif de Tollens dans chacun des 4 tubes à essais. Ensuite, nous y avons ajouté 1ml des solutions de fructose(5%), de glucose(5%), d'amidon(5%) et de sucrose(5%). La solution de sucrose(5%) acidifiée ne sera pas utilisée.
+  
 #### Digestion du glucose par les levures
-
-Pour cette partie-ci, il a fallut utiliser 3 fioles coniques avec un compratiment central.Dans chaque fiole, nous avons ajouté 0.6ml de la solution de NaOH(3M) dans le compartiment central et 1.5ml de la suspension de levure dans le compartiment extérieur.Nous avons également versés, de manières séparée, dans le compartiment extérieur des 3 fioles les solutions suivantes:
-
-* 2.5ml d'H<sub>2</sub>O -> Fiole n°1
-* 2.5ml de ma solution de glucose (20mg/ml) -> Fiole n°2
-* 2.5ml de ma solution de glucose (40mg/ml) -> Fiole n°3
-
-Chaque fiole a ensuite été fermée avec 2 feuilles de parafilm pour hermétiser le système.Les fioles sont ensuite incubées durant 45 minutes à 25°C. Au terme de ces 45 minutes, on interrompt le processus de fermentation en injectant à travers le parafilm 1ml de TCA 20% dans le compartiment extérieur de chaque fiole.
-On titrera en suite le le CO2 produit par la fementation. On va donc ajouter dans des béchers séparés 2ml de BaCl<sub>2</sub> 1M, 1ml H<sub>2</sub>O, 3 gouttes de phénophtaléine, et 0.5ml du NaOH de chaque fiole. Le titrant est de l'acide chlorhydrique 0.3M. Un titrage test est bien évidemment effectué au préalable avec 0.5ml de NaOH 3M frais.
-
+Pour cette partie-ci, il a fallut utiliser 3 fioles coniques avec un compratiment central.Dans chaque fiole, nous avons ajouté 0.6ml de la solution de NaOH(3M) dans le compartiment central et 1.5ml de la suspension de levure dans le compartiment extérieur.
+  
+Nous avons également versé les solutions suivantes dans le compartiment extérieur des 3 fioles:
+  
+* Fiole n°1: 2.5ml d'H<sub>2</sub>O.
+* Fiole n°2:  2.5ml de la solution de glucose (20mg/ml).
+* Fiole n°3: 2.5ml de la solution de glucose (40mg/ml).
+  
+Chaque fiole a ensuite été fermée avec 2 feuilles de parafilm pour fermer le système hermétiquement.Les fioles furent ensuite incubées durant 45 minutes à 25°C. Au terme de ces 45 minutes, nous avons interrompu le processus de fermentation en injectant, à travers le parafilm, 1ml de TCA 20% dans le compartiment extérieur de chaque fiole.
+  
+Nous avons ensuite titré la concentration de NaOH restante (et donc le CO2 produit par la fementation) avec de l'acide chlorhydrique 0.3M comme titrant. 
+Le titrage se déroula comme suit. Nous avons commencé par effectuer un titrage test avec 0.5ml de NaOH 3M frais.Nous avons ensuite ajouté, dans 3 béchers séparés, 2ml de BaCl<sub>2</sub> 1M, 1ml H<sub>2</sub>O, 3 gouttes de phénophtaléine, et 0.5ml du NaOH de chaque fiole. Le volume d'HCl requis pour provoquer le blanchissement de la phénophtaléine est directement proportionnel à la quantité de glucose consommée.
+  
 ### Résultats
+  
 #### Résultats de la mise en évidence des carbohydrates
-
 ![Test de Fehling](../Images/Résultats-Fehling.jpg)
-
-Dans l'ordre: fructose, glucose, amidon, sucrose et sucrose acidifié. On constate facilement que seuls le fructose, le glucose et le sucrose acidifié ont réagi.
-
+  
+Dans l'ordre: fructose, glucose, amidon, sucrose et sucrose acidifié. On constate que seul le fructose, le glucose et le sucrose acidifié ont réagi.
+  
 ![Test de Tollens](../Images/Résultats-Tollens.jpg)
-:
-Un dépot d'argent se forme dans les tubes contenatn du fructose et du glucose. La raison de cette précipitation est identique à celle du teste de Fehling, à savoir que seuls les monomères réagissent.
-
+  
+Un dépot d'argent se forme dans les tubes contenant du fructose et du glucose. La raison de cette précipitation est identique à celle du test de Fehling, à savoir que seuls les monomères réagissent.
+  
 #### Résultats du titrage
-
 Les résultats des titrages sont les suivants:
-
+  
 * Fiole 1: 5.7ml
 * Fiole 2: 3.5ml
 * Fiole 3: 1.6ml
-
+  
 ### Discussion
+  
 #### Mise en évidence de carbohydrates
+  
 ##### Test de Fehling
-Les deux premiers produits ne sont constitués que monosaccharides. La liqueur de Fehling réagit donc avec les groupements aldéhydes. L'ajout d'HCl au sucrose dans le dernier tube permet à la réaction de se faire. En effet, le sucrose est un polysaccharide mais la présence d'un acide fort va cliver les liens osidiques entre les monomères, laissant ces derniers réagir indépendamment. N'ayant pas d'acide fort présent dans les deuxièmes et troisèmes tubes, Les polysaccharides que sont l'amidon et le sucrose n'ont pas pu réagir.
-
+* **Glucose:** Le glucose se cyclise spontanément en mélange aqueux. Cependant, il y a 0.3% de glucose sous forme linéaire, en équilibre dynamique avec 99.7% de glucose cyclique. Les 99.7% de glucose ne vont donc pas réagir avec le test de Fehling vu que leur groupement aldéhyde est occupé par son hémiacétalisation avec un groupement alcool. Les 0.3% vont cependant réagir avec la liqueur de Fehling!
+  
+* **Fructose:** Vu que le fructose est un cétose, il ne devrait pas réagir. Cependant, selon l'isomérisation de De Bryun-Von Ekenstein, il existe un équilibre dynamique entre les aldose et les cétoses à pH 7! Le fructose est donc en partie présent sous forme monomérique linéire aldéhydique, ce qui lui permet de réagir aussi.
+  
+* **Amidon:** L'amidon est un mélange de deux homopolymères que sont l'amylose et l'amylopectine, elles mêmes constituées de glucose. Cependant, vu que le glucose est cyclisé et inséré en tant que monomère dans un polymère de grande taille, les groupements aldéhydes ne réagiront pas avec eux.
+  
+* **Sucrose:** Le sucrose est un dimère de fructose et de glucose. Vu que ces monomères sont cyclisés et dimérisés, il n'y aura pas de réaction. Cependant, il se peut que le lien osidique soit hydrolysé par un agent extérieur accidentel, ce qui fait que ce composé peut réagir dans certains cas.
+  
+* **Sucrose acidifié:** L'ajout d'HCl au sucrose dans le dernier tube permet à la réaction de se faire. En effet, le sucrose est un dimère mais la présence d'un acide fort va cliver les liens osidiques entre les monomères, laissant les groupements aldéhyde de ces derniers réagir indépendamment. Cependant, il se peut que ce composé ne réagisse pas. En effet, lors de son introduction, l'acide fort va être rapidement neutralisé par le milieu basique dans lequel il est plongé. Vu qu'il est présent en petite quantité, il est donc possible qu'il n'ait pas le temps d'agir..
+  
 ##### Test de Tollens
-La raison de cette précipitation est identique à celle du teste de Fehling, à savoir que seuls les monomères réagissent. Bien évidemment, la réaction en elle-même est différente.
-
+Les raisons des précipitations des différents composés est identique à celle du test de Fehling vu que les deux réactions se basent sur le même méchanisme d'action. Bien évidemment, la réaction en elle-même est différente.
+  
 #### Digestion de l'amidon par les levures
+  
 ##### Calcul du rendement
-
-Les équations de réactions simplifiées:
-
+Equations des réactions simplifiées:
+  
 * C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> --> pyruvate + 2CO<sub>2</sub>
-* CO<sub>2</sub> +2NaOH --< Na<sub>2</sub>CO<sub>3</sub> + H<sub>2</sub>O
+* CO<sub>2</sub> +2NaOH --> Na<sub>2</sub>CO<sub>3</sub> + H<sub>2</sub>O
 * HCl + NaOH --> NaCl + H<sub>2</sub>O
 
 **Fiole 1:** On ne peut calculer aucun rendement pour cette fiole car elle ne contient simplement pas de glucose.
