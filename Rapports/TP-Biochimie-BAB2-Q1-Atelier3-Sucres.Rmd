@@ -50,9 +50,30 @@ Aussi, les disaccharides (maltose, saccharose) et les polysaccharides (glycogèn
   
 #### Les polysaccharides
 Constitués de longues chaînes récurrentes ou non de monomères, ils remplissent des fonctions de réserve (amidon) ou de structure (cellulose).
-  
+
+#### Fonctionnement du test de Fehling
+
+Le test de Fehling est une méthode qui permet de révéler la présence de glucides. La liqueur de Fehling réagit avec les fonctions aldehydes dans une réaction d'oxydo-réduction, en jouant le rôle de l'oxydant.
+
+Lors de la réaction, l'ion Cu<sup>2+</sup> oxyde la fonction aldéhyde (La fonction cétone, elle ne réagit pas car son étage d'oxydation est bien supérieur). L'aldéhyde, quant à lui, réduit l'ion et entraine par la même sa précipitation. C'est cette précipitation qui déterminera si le test est positif ou non. De fait, le Cu<sub>2</sub>O possède une couleur rouge très identifiable.
+
+Réaction: R-CHO + 2Cu(OH)<sub>2</sub> → RCOOH + Cu<sub>2</sub>O(s) + 2H<sub>2</sub>O 
+
+La présence des des ions tartrates est également très importante car elle empêche la formation d'hydroxyde cuivrique. Concrètement, cela signifie que le cuivre restera sous forme d'un complexe d'une couleur bleue soluble alors que l'hydroxyde cuivrique, lui, est d'une couleur bleue insoluble. Par après, et à température ambiante, il y aurait naturellement formation d'oxyde de cuivre(II), complexe de couleur noir insoluble.
+
+#### Fonctionnement du test de Tollens
+
+Le test de Tollens est une méthode qui permet de révéler la présence de glucides. Le réactif de Tollens réagit avec des fonctions aldéhydes dans une réaction d'oxydo-réduction, en jouant le rôle de l'oxydant.
+
+Le réactif est une solution comprenant du nitrate d'argent. C'est cet Ag<sup>2+</sup> qui oxyde la fonction aldéhyde (La fonction cétone, elle ne réagit pas car son étage d'oxydation est bien supérieur). L'aldéhyde, quant à lui, réduit l'ion et entraine par la même sa précipitation.
+
+Réaction: R-CHO + 2Ag(NH<sub>3</sub>)<sub>2</sub>OH + NaOH → RCOONa + 2Ag + 2H<sub>2</sub>O + 4NH<sub>3</sub> 
+
+Il se forme alors un dépot d'argent sur les parois en donnant ainsi un effet miroir.
+
 ### But
-Le but premier est de mettre en évidence les différences entre les carbohydrates préparés. Les test de Fehling et de Tollens permettent de différencier les aldoses des cétoses, et la digestion du glucose permettra de comprendre le métabolisme du glucose par ces fungi procaryotes en milieu anaérobique, ce qui, ultimement, nous permettra de trouver le rendement de cette fermentation alcoolique.
+
+L'objectif de cet atelier est de mettre en évidence les caractéristiques de différents carbohydrates. Une différence moléculaire pourra être démontrée grâce aux tests de Fehling et de Tollens entre les aldoses et les cétoses. L'autre point d'intêret sera de démontrer et comprendre la digestion de glucose par les levures ainsi que le rendement de cette fermentation.
   
 ### Matériel
   
