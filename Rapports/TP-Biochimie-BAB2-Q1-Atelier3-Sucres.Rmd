@@ -6,8 +6,8 @@ author:
   - name: "Emeline Derycke"
 date: "05/11/2020"
 output:
-  html_document: default
   word_document: default
+  html_document: default
 ---
 ***
 ```{r setup, include=FALSE}
