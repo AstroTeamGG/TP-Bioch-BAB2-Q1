@@ -64,24 +64,24 @@ Une fois la première étape terminée, les deux extraits furent mis sous hotte.
   
 ![Figure 2: Elimination du solvant sur plaque éléctrique](../Images/Plaque électrique.jpg)
 
-##### Précipitation de phospholipides (figures 6 et 7)
+##### Précipitation de phospholipides (figures 3 et 4)
 Après refroidissement, les résidus de l'évaporation furent dissous dans 2 mL d'éther [6]. 
   
 **Note:** Pour la cervelle, nous avons dû OCTUPLER les quantités de solvant (16 mL d'éther, 40 gouttes de CdCl2 et 48 mL d'acétone) car apparemment l'échantillon était saturé en graisses. 
   
 Les produits de dissolution du lard furent ensuite versés dans un  tube à centrifuger avec 5 gouttes de CdCl2 [4] et 6 mL d'acétone [7] (fois 8 pour la cervelle), puis les deux tubes passèrent à la centrifugeuse.
   
-##### Saponification des graisses neutres
+##### Saponification des graisses neutres (figure 5)
 Dans le surnageant, il ne resta plus que les graisses neutres et le cholestérol. Il a fallu décanter ce surnageant dans un bécher attitré au lard ou à la cervelle. Une solution de KOH alcool fut ajoutée et le tout fut mélangé. 
   
 **Note: Le surnageant de cerveau faisait 38 mL, et le culot occupait jusqu'à 2 ml dans le flacon. Nous avons donc décider de quadrupler la quantité de KOH Alcool (24 mL)[3], même si en ratio ça aurait dû être ±4,75 fois plus.**
   
 Ensuite,ce mélange fut placé sous hotte, chauffé et évaporé. Suite à cette étape, il ne subsistait que le savon, masse informe au fond du bécher (sels de potassium).
   
-##### Séparation des savons et du cholestérol (figure 4)
+##### Séparation des savons et du cholestérol (figure 6)
 Une fois que le bécher "contenant la cervelle" a été refroidit. Nous avons dissout le savon(cervelle) à l’aide de 7ml d’alcool à 50%. Ensuite, nous avons transvasé le tout dans une ampoule à décanter avec ajout de  10ml d’éther de pétrole. Enfin, la cristalisation du cholestérol fut réalisée par évaporation du solvant la phase organique grâce à une plaque chauffante.
   
-##### Précipitation des savons calciques
+##### Précipitation des savons calciques (figure 7)
 Dès que le bécher contenant le lard eu fini de refroidir, nous avons incorporé son contenu dans 20ml d’eau. 
   
 Nous avons ensuite incorporé ces 20 ml dans deux tubes (10 mL chaque). Dans l'un, nous avons ajouté petit à petit 10 gouttes de CaCl2 2M [5]. Dans l'autre, 10 gouttes d’acide acétique.
@@ -93,16 +93,12 @@ Nous avons ensuite incorporé ces 20 ml dans deux tubes (10 mL chaque). Dans l'u
 ##### Résultats
 Le culot du tube falcon contenant la cervelle était plus important que celui du lard. En outre, le surnageant présentait une couleur jaunâtre dans le deux cas.
   
-![Figure 6: Tube Falcon de cervelle](../Images/Tube-centrifuge-cervelle.jpg)
+![Figure 3: Tube Falcon de cervelle](../Images/Tube-centrifuge-cervelle.jpg)
   
-![Figure 7: Tube Falcon de lard](../Images/Tube-centrifuge-lard.jpg)
+![Figure 4: Tube Falcon de lard](../Images/Tube-centrifuge-lard.jpg)
   
 ##### Discussion
 Etant donné que les sels de cadmium phospholipides sont insolubles dans une solution d'acétone et d’éther, nous pouvons observer un précipité dans le fond du tube. Il y a néanmoins une différence de volume entre le surnageant de cervelle et de lard, due là l'octuplation des doses de solvants.
-  
-![Figure 6: Tube Falcon de cervelle](../Images/Tube-centrifuge-cervelle.jpg)
-  
-![Figure 7: Tube Falcon de lard](../Images/Tube-centrifuge-lard.jpg)
   
 Les phospholipides ont formé un culot par précipitaton due au sel de cadmium. Le surnageant, quant à lui, s'est formé par réaction de l’éther et de l’alcool avec les graisses neutres et le cholestérol.
   
@@ -113,7 +109,7 @@ Vu que les phospholipides font partie inhérente des membranes cellulaire, il es
 ##### Résultats
 Nous avons pu observer une fine couche de couleur brune/jaunâtre dans le fond des béchers.
   
-![Figure 3: Savon lard](../Images/Savon_lard.jpg)
+![Figure 5: Savon lard](../Images/Savon_lard.jpg)
   
 ##### Discussion
 Cette couche jaunâtre représente les acides gras, saponifiés en savons potassiques. En effet, laa saponification s'est effectuée lorsque les graisses furent mélangées au KOH-alcool et placées sur une plaque chauffante sous hotte. Après évaporation, il ne restait donc plus que le produit de la saponification dans le fond du bécher: les sels de potassium. 
@@ -126,7 +122,7 @@ Théoriquement, le potassium (K+) a réagi avec le carboxyle, et le groupement h
 Ces résultats nous viennent du groupe 1 car nous n'avons malheureusement pas eu le temps de recommencer cette manipulation.
 Nous pouvons voir deux phases clairement distinguables dans l'ampoule à décanter (figure 4): Une phase organique contenant le cholésstérol et une phase aqueuse contenant les savons. Au final, nous avons obtenu ±1.5 g de choléstérol cristalisé par évaporation du solvant de la phase organique. 
   
-![Figure 4: Ampouler à décanter avec les deux phases observées](../Images/Ampoule-à-décanter.jpg)
+![Figure 6: Ampouler à décanter avec les deux phases observées](../Images/Ampoule-à-décanter.jpg)
   
 ##### Discussion
 Nous avons utilisé de l’alcool et de l’éther de pétrole afin d’obtenir les deux phases (aqueuse et organique) nécessaires à la décantation. Dans cette ampoule (figure 5) nous avons donc pu observer deux phases, une phase organique avec le cholestérol et une phase aqueuse avec les savons. Nous avons donc laissé s’écouler la phase aqueuse et l'éther de pétrole a été recueilli dans un bêcher sec. Il fut laissé à évaporer sous la hotte. Pour ce qui en est du cholestérol, il a cristallisé.
@@ -144,7 +140,7 @@ Cette éprouvette présente une réaction de précipitation plus classique avec 
   
 Le volume apparent de précipitation dans les tubes semble plus important dans le tube contenant du CaCl2 que dans celui contenant de l'acide acétique. 
   
-![Figure 5: Tube avec 10 gouttes de CaCl2 à gauchet et Tube avec 10 gouttes d'acide acétique](../Images/Précipitation-savons-calciques.jgg)
+![Figure 7: Tube avec 10 gouttes de CaCl2 à gauchet et Tube avec 10 gouttes d'acide acétique](../Images/Précipitation-savons-calciques.jgg)
   
 ##### Discussion
 Théoriquement, dans le CaCl2 (Ca++, 2 Cl-), le calcium, de valence 2, va pouvoir accepter 2 têtes hydrophiles de triglycérides, tandis que l’acide acétique (CH3COO- , H+ ) ne va pouvoir se lier qu’à une tête hydrophile. 
@@ -159,8 +155,8 @@ La séparation des différents lipides des échantillons de cervelle et de lard 
 De plus, la quantité de cholestérolsemble également plus importante dans la cervelle, et ce grâce à l'abondance d'hormones stéroïdiennes dont la structure est basée sur ce même cholestérol.
   
 Le lard, quant à lui, possède bien plus de triglycérides (graisses neutres) que la cervelle, étant bien plus gras en tant que tissu de soutien.
-### Bibliographie
   
+### Bibliographie
 * Colignon, L. (2020). Travaux pratiques de biochimie 2020-2021, protocole Moodle.
   
 * Gillan, D. (2018?). Biologie Générale fascicule 1 et 4, Syllabus didpensé par l'Umons, pages diverses.
