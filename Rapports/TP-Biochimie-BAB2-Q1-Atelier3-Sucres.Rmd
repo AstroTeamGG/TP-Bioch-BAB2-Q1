@@ -84,7 +84,7 @@ La levure est un Fungi eucaryote de l'ordre des ascomycètes qui est capable de 
   
 C6 H12 O6 --> 2CO2 + 2C2 H5 OH
   
-Pour prouver que la levure digère bien le glucose, on peut utiliser le fait qu'elle produise du CO2 et le titrer en présence de NaOH. Si du CO2 a été produit, il y aura moins de NaOH que la quantité que nous avons initialement placée. Le NaOH fait une réaction acide-base classique avec le CO2.
+Pour prouver que la levure digère bien le glucose, on peut utiliser le fait qu'elle produise du CO2 et le titrer en présence de NaOH. Si du CO2 a été produit, il y aura moins de NaOH que la quantité que nous avons initialement placée. Le NaOH fait une réaction acide-base complète (car OH- est une base forte) avec le CO2.
   
 C'est une réaction acide base parce qu'en milieu aqueux, le CO2 est présent sous forme de H2 CO3. Le NaOH étant une base forte, il se dissocie en milieu aqueux en Na+ et OH-. La réaction suivante se déroule alors:
   
@@ -92,15 +92,51 @@ C'est une réaction acide base parce qu'en milieu aqueux, le CO2 est présent so
   
 (H2CO3 + 2 (Na+ + OH-) --> Na2 CO3 + 2 H2O)
   
-Il va y avoir un échange de proton entre H2 CO3 et le OH-, ce qui va laisser l'ion spectateur Na+ se fixer sur le HCO3-. Donc pour chaque mole de CO2 produit, il y aura une quantité équimolaire de NaOH (OH-) qui sera consommée. On va donc titrer la quantité de NaOH restante avec du HCl comme titrant. De manière théorique, le rendement peut être calculé comme suit:
+Il va y avoir un échange de proton entre H2 CO3 et le OH-, ce qui va laisser l'ion spectateur Na+ se fixer sur le HCO3-. Donc pour chaque mole de CO2 produit, il y aura deux moles de NaOH (OH-) qui seront consommée. On va donc titrer la quantité de NaOH restante avec du HCl comme titrant. 
   
-**Rendement** = ((n glucose consommé) /(n glucose départ)) x 100
+*Note: C = concentration, V = volume et n = nombre de moles de ...*
+  
+**Techniquement:**
+C NaOH titré * V NaOH titré = C HCl titrant * V HCl versé
+  
+Donc:
+  
+C NaOH titré = (C HCl titrant * V HCl versé) / V NaOH titré 
+  
+Si C NaOH titré (restant) est inférieur à C NaOH de départ, alors on pourra dire qu'il y a eu une consommation de glucose!
+  
+On calcule n moles restantes:
+  
+n NaOH restantes = C NaOH titré * V NaOH titré
+  
+**Les étapes précédentes sont explicitées à titre indicatif, car en effet, vu qu'on est à l'équivalence, n NaOH restantes = n HCl versés. On calcule n moles de NaOH consommées:**
+  
+n NaOH consommé = n NaOH initiales - n NaOH restantes (= n HCl)
+  
+**Vu que 2 moles de NaOH réagissent avec 1 mole de CO2:**
+  
+n NaOH consommé / 2 = n CO2 consommé 
+
+**Nous savons aussi que 2 moles de CO2 se forment à partir d’une mole de glucose selon l'équation suivante:**
+  
+1 glucose → 2 pyruvate → 2CO2 + 2 éthanol 
+  
+**On en déduit que:**
+  
+n CO2 consommées / 2 = n glucose consommé
+  
+**Il y a donc un rapport de facteur 4 entre n NaOH consommé et n glucose consommé:**
+  
+n NaOH consommé / 4 = n glucose consommé
+  
+**De manière théorique, le rendement peut ensuite être calculé comme suit:**
+  
+Rendement = ((n glucose consommé) /(n glucose départ)) x 100
   
 **avec:**
 * n glucose départ = m glucose départ (g) / M glucose (g/mol) 
-* 
 
-
+* n glucose consommé = nmbre de moles de CO / 2 ou n NaOH consommé / 4
   
 ### But
 L'objectif de cet atelier est de mettre en évidence les caractéristiques de différents carbohydrates. Une différence moléculaire pourra être démontrée grâce aux tests de Fehling et de Tollens entre les aldoses et les cétoses. L'autre point d'intêret sera de démontrer et comprendre la digestion de glucose par les levures ainsi que le rendement de cette fermentation.
@@ -199,35 +235,40 @@ Equations des réactions simplifiées:
 * C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> --> pyruvate + 2CO<sub>2</sub>
 * CO<sub>2</sub> +2NaOH --> Na<sub>2</sub>CO<sub>3</sub> + H<sub>2</sub>O
 * HCl + NaOH --> NaCl + H<sub>2</sub>O
-
+  
 **Fiole 1:** On ne peut calculer aucun rendement pour cette fiole car elle ne contient simplement pas de glucose.
-
+  
 **Fiole 2:** On a rajouté 3.5ml de HCl ce qui correspond à 0.00105 moles de NaOH.
 On peut donc calculer la quantitée de NaOH utilisée en soustrayant celle restante à celle d'origine:
-
+  
 * 0.00171 - 0.00105 = 0.00066 moles de NaOH utilisées
-
+  
 Or il y à un rapport 4 entre la quantité de NaOH utilisée et la quantité de gulcose utilisée:
-
-* 0.00066/4 = 0.000165 moles de glucose utilisées
-
+  
+* 0.00066/4 = *0.000165 moles de glucose utilisées*
+  
 Le rendement final est donné par le rapport entre la quantité de glucose utilisée et la quantitée de glucose initiale:
-
-* Rendement: (0.000165/0.000278) x 100 = **59.35%**
-
+  
+* Rendement fiole 2: (0.000165/0.000278) x 100 = **59.35%**
+  
 **Fiole 3:** Le raisonnement est identique à celui de la fiole n°2. La seule variable qui change est la concentration de la solution de glucose utilisée.
-
+  
 * Quantité de NaOH utilisée: 0.00171 - 0.00048 = 0.00123 moles
-* Quantité de glucose utilisée: 0.00123 / 4 = 0.0003075 moles
-* Rendement: (0.0003075  / 0.000555) x 100 = **55.40%**
-
-
+* Quantité de glucose utilisée: 0.00123 / 4 = *0.0003075 moles*
+* Rendement fiole 3: (0.0003075  / 0.000555) x 100 = **55.40%**
+  
+La vitesse de fermentation semble être affectée par la hausse de concentration en glucose. Par conséquent, le rendement sera quasi équivalent dans le cas d'une concentration plus importante en glucose. En effet, on voit que si on double la concentration, la quantité de glucose utilisée double!
+  
 ### Conclusion
+  
 #### Mise en évidence des carbohydrates
-Durant les test de Fehling et de Tolens nous avons pu mettre évidence les carbohydrates avec succès. Cependant, il est à remarquer que ces tests ne sont efficaces que sur les monosaccharides.
-
+Durant les test de Fehling et de Tollens nous avons pu mettre évidence les groupements aldéhydes du fructose, du glucose et du sucrose acidifié avec succès. Nous pouvons conclure que le test de Fehling et de Tollens ne fonctionnent que si le groupemen aldéhyde du sucre n'est ni impliqué avec un groupement alcool dans une cyclisation, ni polymérisé. Il doit être libre et terminal mais il réagira tout de même si il est inclu dans la cahîne grâce à l'isomérisation aldose <-> cétose.
+  
 #### Digestion de l'amidon par les levures
-
-Nous avons démontrer avec succès la consommation de glucose par les levures en milieu anaérobie ainsi que calculer le rendement de cette fermentation en fonction de la quantitée de glucose.
-
+Nous avons démontrer avec succès la consommation de glucose par les levures en milieu anaérobie ainsi que calculer le rendement de cette fermentation en fonction de la quantité de glucose. La vitesse de fermentation semble être affectée par la hausse de concentration en glucose. Par conséquent, le rendement sera quasi équivalent dans le cas d'une concentration plus importante en glucose.
+  
 ### Bibliographie
+  
+* Colignon, L. (2020). Travaux pratiques de biochimie 2020-2021, protocole Moodle.
+  
+* Gillan, D. (2018?). Biologie Générale fascicule 1 et 4, Syllabus didpensé par l'Umons, pages diverses.

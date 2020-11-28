@@ -121,7 +121,10 @@ Voici les données recueillies lors de la dernière étape de la manipulation:
 # Import dataframe
 ADN <- read_excel("~/shared/projects/TP-Bioch-BAB2-Q1/Excel/ADN.xlsx")
 
-ADN
+# Kable options
+options(knitr.table.format = NULL)
+  
+knitr::kable(ADN, col.names = c("Température [°C]", "Absorbance"), align = "cc")
 ```
   
 Les données à 46°C et 66°C semblent être des artéfacts. Mettons ces données en graphique.
@@ -154,6 +157,6 @@ Nous avons établi avec succès le pourcentage d'A+T (73.9%) et de C+G (26.1%) d
 
 ### Bibliographie
   
-* Colignon, L. (2020). Travaux pratiques de biochimie 2020-2021, protocole Moodle, diapositive 13.
+* Colignon, L. (2020). Travaux pratiques de biochimie 2020-2021, protocole Moodle.
   
 * Gillan, D. (2018?). Biologie Générale fascicule 1 et 4, Syllabus didpensé par l'Umons, pages diverses.
